@@ -1,0 +1,102 @@
+@media print {
+	body {
+		zoom: 75%;
+		background:#FFF !important;
+	}
+	.text-light { color:#000 !important; }
+	.pH { display: none !important; }
+}
+body {
+	background: #1b1b1f;
+}
+ul#travel-advisories{
+	list-style: none;
+	padding-inline-start: 0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+ul#post-departures {
+	list-style: none;
+	padding-inline-start: 0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+ul#travel-advisories li {
+	display: inline;
+	padding-left:10px;
+}
+ul#post-departures li {
+	display: inline;
+	padding-left:10px;
+}
+ul#travel-advisories li:not(:last-child):after {
+	content: " ";
+}
+ul#post-departures li:not(:last-child):after {
+	content: "; ";
+}
+ul#eacs-today, #eacs-older, #sitreps-today, #sitreps-older, #safe-alerts, #dscc-awareness-alerts {
+	list-style: none;
+	padding-inline-start: 0px;
+}
+#eacs li {
+	border-top:1px solid #757575;
+	padding:3px 0px 3px 0px;
+}
+#safe-alerts li {
+	border-top:1px solid #757575;
+	padding:3px 0px 3px 0px;
+}
+#sitReps li {
+	border-top:1px solid #757575;
+	padding:3px 0px 3px 0px;
+}
+#preloader {
+	background:#000;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+.block-with-text {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;  
+}
+.accordionHeaderColour {
+	background-color:#3f465b !important;
+}
+.accordionBodyColour {
+	background-color:#23242b !important;
+}
+.btn-custom {
+	background-color: #23242b !important;
+	border: 1px solid #8F9099 !important;
+	color: #fff !important;
+	margin-top: 0px !important;
+}
+.btn-custom:hover, .btn-custom:focus, .btn-custom:active, .btn-custom.active, .open .dropdown-toggle.btn-custom {
+	background-color: #404659 !important;
+	border-color: 1px solid #404659;
+	color: #fff !important;
+}
+.navbar .nav-item .nav-link:hover { color: #404659 !important; }
+.navbar .nav-item .nav-link:focus { color: #FFF !important; }
+.navbar-nav .nav-link.active { color: #404659 !important; font-weight: bold; }
+.dropdown-menu {
+	color:#fff;
+	background-color:#404659;
+}
+.nav-pills .nav-link {
+	--mdb-nav-pills-linked-border-radius: 0.5rem;
+	--mdb-nav-pills-link-font-size: 14px;
+	--mdb-nav-pills-link-padding-top: 6px;
+	--mdb-nav-pills-link-padding-bottom: 6px;
+	--mdb-nav-pills-link-padding-x: 16px;
+	--mdb-nav-pills-margin: 0.125rem;
+	text-transform: none;
+}
+.bgColour {
+	background-color:#23242b !important;
+}
