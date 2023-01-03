@@ -81,9 +81,9 @@ ul#eacs-today, #eacs-older, #sitreps-today, #sitreps-older, #safe-alerts, #dscc-
 	border-color: 1px solid #404659;
 	color: #fff !important;
 }
-.navbar .nav-item .nav-link:hover { color: #404659 !important; }
+.navbar .nav-item .nav-link:hover { color: #88A9FF !important; }
 .navbar .nav-item .nav-link:focus { color: #FFF !important; }
-.navbar-nav .nav-link.active { color: #404659 !important; font-weight: bold; }
+.navbar-nav .nav-link.active { color: #88A9FF !important; font-weight: bold; }
 .dropdown-menu {
 	color:#fff;
 	background-color:#404659;
