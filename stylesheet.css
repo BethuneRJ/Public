@@ -9,6 +9,18 @@
 body {
 	background: #1b1b1f;
 }
+ul#swpc-alerts-affected-posts {
+	list-style: none;
+	padding-inline-start: 0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+ul#swpc-alerts-affected-posts li {
+	display: inline;
+}
+ul#swpc-alerts-affected-posts li:not(:last-child):after {
+	content: "; ";
+}
 ul#travel-advisories{
 	list-style: none;
 	padding-inline-start: 0px;
