@@ -118,3 +118,6 @@ ul#eacs-today, #eacs-older, #sitreps-today, #sitreps-older, #safe-alerts, #dscc-
 .bgColour {
 	background-color:#23242b !important;
 }
+.gridjs-pagination {
+	color:#fff;
+}
