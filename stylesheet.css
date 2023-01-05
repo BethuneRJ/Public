@@ -121,6 +121,3 @@ ul#eacs-today, #eacs-older, #sitreps-today, #sitreps-older, #safe-alerts, #dscc-
 .gridjs-pagination {
 	color:#fff;
 }
-.expand .dropdown-toggle:after {
-	 content: none;
-}
