@@ -122,5 +122,5 @@ ul#eacs-today, #eacs-older, #sitreps-today, #sitreps-older, #safe-alerts, #dscc-
 	color:#fff;
 }
 .expand .dropdown-toggle:after {
-	 display: none;
+	 content: none;
 }
