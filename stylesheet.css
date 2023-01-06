@@ -47,7 +47,12 @@ ul#travel-advisories li:not(:last-child):after {
 ul#post-departures li:not(:last-child):after {
 	content: "; ";
 }
-ul#eacs-today, #eacs-older, #sitreps-today, #sitreps-older, #safe-alerts, #pdso-today, #pdso-older {
+ul#eacs-today, #eacs-older, #sitreps-today, #sitreps-older, #safe-alerts {
+	list-style: none;
+	padding-inline-start: 0px;
+}
+
+ul#pdso-today, #pdso-older {
 	list-style: none;
 	padding-inline-start: 0px;
 }
