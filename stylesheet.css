@@ -51,16 +51,6 @@ ul#eacs-today, #eacs-older, #sitreps-today, #sitreps-older, #safe-alerts {
 	list-style: none;
 	padding-inline-start: 0px;
 }
-
-ul#pdso-today, #pdso-older {
-	list-style: none !important;
-	padding-inline-start: 0px !important;
-}
-
-#pdso li {
-	border-top:1px solid #757575 !important;
-	padding:3px 0px 3px 0px !important;
-}
 #eacs li {
 	border-top:1px solid #757575;
 	padding:3px 0px 3px 0px;
