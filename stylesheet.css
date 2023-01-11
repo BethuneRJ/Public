@@ -128,3 +128,10 @@ ul#agencies, #current-cores {
 	list-style: none;
 	padding-inline-start: 0px;
 }
+ul#current-cores {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	list-style: none;
+	padding-inline-start: 0px;
+}
