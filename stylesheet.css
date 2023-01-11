@@ -121,3 +121,10 @@ ul#eacs-today, #eacs-older, #sitreps-today, #sitreps-older, #safe-alerts {
 .gridjs-pagination {
 	color:#fff;
 }
+ul#agencies, #regions {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	list-style: none;
+	padding-inline-start: 0px;
+}
