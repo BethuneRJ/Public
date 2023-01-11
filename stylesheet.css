@@ -121,7 +121,7 @@ ul#eacs-today, #eacs-older, #sitreps-today, #sitreps-older, #safe-alerts {
 .gridjs-pagination {
 	color:#fff;
 }
-#agencies ul {
+ul#agencies {
 	-webkit-column-count: 2;
 	-moz-column-count: 2;
 	column-count: 2;
