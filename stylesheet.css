@@ -162,3 +162,6 @@ ul#agencies {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+.leaflet-control-attribution {
+	background:rgp(0,0,0 / 0%);
+}
