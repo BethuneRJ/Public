@@ -135,6 +135,13 @@ ul#agencies {
 	list-style: none;
 	padding-inline-start: 0px;
 }
+.dual-column-style ul {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	list-style: none;
+	padding-inline-start: 0px;
+}
 .fade-in-image {
   animation: fadeIn 5s;
   -webkit-animation: fadeIn 5s;
