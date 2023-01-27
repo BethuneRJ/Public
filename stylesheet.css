@@ -172,3 +172,9 @@ ul#agencies {
 .leaflet-control-attribution {
 	background:rgp(0,0,0 / 0%);
 }
+.single-line {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
