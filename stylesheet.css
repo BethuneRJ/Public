@@ -176,23 +176,15 @@ ul#agencies {
 	text-overflow: ellipsis; 
 	overflow: hidden; 
 	white-space: nowrap;
-}	
-.items{
-    display:none;
-}
-.items:nth-child(-n+5){
-    display:block;
 }
 .line-item {
   display: flex;
   overflow: hidden;
   width: 100%;
 }
-
 .category {
   color: #E4E2E6;
 }
-
 .trunk {
   color: #88A9FF;
   white-space: nowrap;
@@ -200,7 +192,6 @@ ul#agencies {
   text-overflow: ellipsis;
   width: 100%;
 }
-
 .timestamp {
   color: #E4E2E6;
 }
