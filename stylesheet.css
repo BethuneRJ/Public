@@ -8,6 +8,7 @@
 }
 body {
 	background: #1b1b1f;
+	font-family: 'Inter', sans-serif !important;
 }
 ul#swpc-alerts-affected-posts {
 	list-style: none;
