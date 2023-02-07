@@ -195,3 +195,7 @@ ul#agencies {
 .timestamp {
   color: #E4E2E6;
 }
+.card-header:first-child { border-radius: 1.5rem; border-bottom:0; margin-top:0.5rem; }
+.card-footer:last-child { border-radius: 0rem 0rem 1.5rem 1.5rem; }
+.card { border-radius: 1.5rem; box-shadow:none; }
+.nav-tabs {margin-left: 0.125rem;}
