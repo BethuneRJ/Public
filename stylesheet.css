@@ -6,10 +6,16 @@
 	.text-light { color:#000 !important; }
 	.pH { display: none !important; }
 }
-body {
-	background: #1b1b1f;
+body{
 	font-family: 'Inter', sans-serif !important;
+	font-feature-settings: 'ss04' on;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 0.1px;
+	color: #E4E2E6;
 }
+.row { --mdb-gutter-x: .5rem !important; }
 ul#swpc-alerts-affected-posts {
 	list-style: none;
 	padding-inline-start: 0px;
