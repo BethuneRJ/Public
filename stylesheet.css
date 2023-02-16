@@ -206,3 +206,26 @@ ul#agencies {
 .card-footer:last-child { border-radius: 0rem 0rem 1.5rem 1.5rem; }
 .card { border-radius: 1.5rem; box-shadow:none; }
 .nav-tabs {margin-left: 0.125rem;}
+.containerBox {
+    position: relative;
+    display: inline-block;
+	width:500px;
+}
+.text-box {
+    position: absolute;    
+    height: 100%;
+    text-align: center;    
+    width: 100%;
+}
+.text-box:before {
+   content: '';
+   display: inline-block;
+   height: 100%;
+   vertical-align: middle;
+}
+.containerBox img {
+  display: block;
+  max-width: 100%;
+margin-left: auto;
+  margin-right: auto;  
+}
