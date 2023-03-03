@@ -84,6 +84,12 @@ ul#eacs-today, #eacs-older, #sitreps-today, #sitreps-older, #safe-alerts {
 	-webkit-line-clamp: 2;
 	-webkit-box-orient: vertical;  
 }
+.four-lines-max {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;  
+}
 .accordionHeaderColour {
 	background-color:#3f465b !important;
 }
