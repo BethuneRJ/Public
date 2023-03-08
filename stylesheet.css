@@ -238,6 +238,7 @@ margin-left: auto;
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active { border-radius: 4px 4px 0 0; }
 .geocoder-control-suggestions { color:#000 !important; }
 .geocoder-control-suggestion:hover{ 
+	color:#fff !important;
 	background:#404659 !important;
 	border-color:#404659 !important;
 }
