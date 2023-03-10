@@ -250,7 +250,6 @@ margin-left: auto;
 }
 .comma-separated-ul li {
 	display: inline;
-	padding-left:10px;
 }
 .comma-separated-ul li:not(:last-child):after {
 	content: " ";
