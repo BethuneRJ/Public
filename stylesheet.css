@@ -242,3 +242,16 @@ margin-left: auto;
 	background:#404659 !important;
 	border-color:#404659 !important;
 }
+.comma-separated-ul {
+	list-style: none;
+	padding-inline-start: 0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.comma-separated-ul li {
+	display: inline;
+	padding-left:10px;
+}
+.comma-separated-ul li:not(:last-child):after {
+	content: " ";
+}
