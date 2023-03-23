@@ -230,10 +230,10 @@ ul#agencies {
    vertical-align: middle;
 }
 .containerBox img {
-  display: block;
-  max-width: 100%;
-margin-left: auto;
-  margin-right: auto;  
+	display: block;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;  
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active { border-radius: 4px 4px 0 0; }
 .geocoder-control-suggestions { color:#000 !important; }
@@ -253,4 +253,7 @@ margin-left: auto;
 }
 .comma-separated-ul li:not(:last-child):after {
 	content: " ";
+}
+.link-stealth a {
+	color:#e4e2e6;
 }
