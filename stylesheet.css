@@ -254,6 +254,9 @@ ul#agencies {
 .comma-separated-ul li:not(:last-child):after {
 	content: " ";
 }
-.link-stealth a {
-	color:#e4e2e6;
+a.link-stealth:link {
+	color:#e4e2e6 !important;
+}
+a.link-stealth:visited {
+	color:#e4e2e6 !important;
 }
