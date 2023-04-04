@@ -257,6 +257,9 @@ ul#agencies {
 a.link-stealth:link {
 	color:#e4e2e6 !important;
 }
+a.link-stealth:hover {
+	color:#8babe0 !important;
+}
 a.link-stealth:visited {
 	color:#e4e2e6 !important;
 }
