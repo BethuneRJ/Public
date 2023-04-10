@@ -252,7 +252,7 @@ ul#agencies {
 	display: inline;
 }
 .comma-separated-ul li:not(:last-child):after {
-	content: " ";
+	content: ", ";
 }
 a.link-stealth:link {
 	color:#e4e2e6 !important;
