@@ -263,3 +263,9 @@ a.link-stealth:hover {
 a.link-stealth:visited {
 	color:#e4e2e6 !important;
 }
+.three-rows-text {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;  
+}
