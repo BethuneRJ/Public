@@ -328,3 +328,21 @@ a.link-stealth:hover {
 }
 .text-news { color:#5A8CFF; }
 .iconExtraClass {margin-top: .75rem !important;}
+	.comma-separated-ul {
+	list-style: none;
+	padding-inline-start: 0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.comma-separated-ul li {
+	display: inline;
+}
+.comma-separated-ul li:not(:last-child):after {
+	content: ", ";
+}
+a.link-stealth:link {
+	color:#e4e2e6 !important;
+}
+a.link-stealth:visited {
+	color:#e4e2e6 !important;
+}
