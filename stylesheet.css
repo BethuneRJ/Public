@@ -346,3 +346,133 @@ a.link-stealth:link {
 a.link-stealth:visited {
 	color:#e4e2e6 !important;
 }
+		.geocoder-control-suggestions { color:#000 !important; }
+		.geocoder-control-suggestion:hover{ 
+			color:#fff !important;
+			background:#404659 !important;
+			border-color:#404659 !important;
+		}
+		.nav-tabs .nav-link.active {
+			display:flex;
+			align-items:center;
+		}
+		.leaflet-control-zoom-in {
+			background-color: #23242b !important;
+		}
+		.leaflet-control-zoom-out {
+			background-color: #23242b !important;
+		}
+		.polyline-measure-unicode-icon {
+			background-color: #23242b !important;
+		}
+		#unitControlId {
+			background-color: #23242b !important;
+		}
+		.leaflet-bar a {
+			border-color: hsla(0,0%,100%,.12)!important;
+		}
+		.leaflet-control-layers-toggle {
+			background-color: #23242b !important;
+		}
+		.leaflet-control-layers-expanded {
+			background-color: #23242b !important;
+		}
+		.leaflet-control-layers-overlays {
+			background-color: #23242b !important;
+			color: #ffffff !important;
+		}
+		.geocoder-control-input {
+			background-color: #23242b !important;
+			color:#fff;
+		}
+		.post:hover {
+			background-color: #404659;
+			border-radius:0.5rem;
+		}
+a.link-stealth:hover {
+	color:#8babe0 !important;
+}
+ .two-line-text {
+    height: 2.6em; /* adjust the height to fit two lines */
+    overflow: hidden;
+    text-overflow: ellipsis; /* add "..." to indicate truncated text */
+  }
+.three-rows-text {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;  
+}
+.text-news { color:#5A8CFF; }
+.text-custom-danger {color:#FF5449}
+.iconExtraClass {margin-top: .75rem !important;}
+.custom-card {
+  max-height: 800px;
+  overflow-y: auto;
+}
+
+/* Scrollbar styling */
+.custom-card::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-card::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.custom-card::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+}
+.custom-card-2 {
+  max-height: 400px;
+  overflow-y: auto;
+}
+.custom-card-2::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-card-2::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.custom-card-2::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+}
+.my-custom-tooltip {
+    background-color: #23242b;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+}
+  .circle-with-txt {
+        color: #000;
+        font-size: 23px;
+        line-height: 25px;
+        text-align: center;
+        vertical-align: bottom;
+        box-shadow: 2px 1px 4px rgba(0,0,0,0.2);
+        border-radius: 30px;
+        border-width: 3px;
+        border: 2px solid #fff;
+        opacity: .9;
+  }
+  .txt-for-circle {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+  }
+.category-five { background-color: #ff00ff; } /* Bright Magenta */
+.category-four { background-color: #ff4500; } /* OrangeRed */
+.category-three { background-color: #ff8c00; } /* DarkOrange */
+.category-two { background-color: #ffd700; } /* Gold */
+.category-one { background-color: #ffff00; } /* Yellow */
+.tropical-storm { background-color: #adff2f; } /* GreenYellow */
+.tropical-depression { background-color: #00ffff; } /* Aqua */
