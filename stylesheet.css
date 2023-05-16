@@ -476,3 +476,9 @@ a.link-stealth:hover {
 .category-one { background-color: #ffff00; } /* Yellow */
 .tropical-storm { background-color: #adff2f; } /* GreenYellow */
 .tropical-depression { background-color: #00ffff; } /* Aqua */
+.leaflet-popup-content-wrapper {
+    background-color: #23242b !important;
+    color: #fff !important;
+    border: none !important;
+    box-shadow: none !important;
+}
