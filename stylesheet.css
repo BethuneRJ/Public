@@ -394,10 +394,10 @@ a.link-stealth:hover {
   border-radius: 8px;
 }
 .my-custom-tooltip {
-    background-color: #23242b;
-    color: #fff;
-    border: none;
-    box-shadow: none;
+    background-color: #23242b !important;
+    color: #fff !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 .leaflet-popup-content-wrapper {
     background-color: #23242b !important;
