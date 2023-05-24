@@ -269,64 +269,63 @@ a.link-stealth:visited {
 	-webkit-line-clamp: 3;
 	-webkit-box-orient: vertical;  
 }
-		.geocoder-control-suggestions { color:#000 !important; }
-		.geocoder-control-suggestion:hover{ 
-			color:#fff !important;
-			background:#404659 !important;
-			border-color:#404659 !important;
-		}
-		.nav-tabs .nav-link.active {
-			display:flex;
-			align-items:center;
-		}
-		.leaflet-control-zoom-in {
-			background-color: #23242b !important;
-		}
-		.leaflet-control-zoom-out {
-			background-color: #23242b !important;
-		}
-		.polyline-measure-unicode-icon {
-			background-color: #23242b !important;
-		}
-		#unitControlId {
-			background-color: #23242b !important;
-		}
-		.leaflet-bar a {
-			border-color: hsla(0,0%,100%,.12)!important;
-		}
-		.leaflet-control-layers-toggle {
-			background-color: #23242b !important;
-		}
-		.leaflet-control-layers-expanded {
-			background-color: #23242b !important;
-		}
-		.leaflet-control-layers-overlays {
-			background-color: #23242b !important;
-			color: #ffffff !important;
-		}
-		.geocoder-control-input {
-			background-color: #23242b !important;
-			color:#fff;
-		}
-		.post:hover {
-			background-color: #404659;
-			border-radius:0.5rem;
-		}
+.geocoder-control-suggestions { color:#000 !important; }
+.geocoder-control-suggestion:hover{ 
+	color:#fff !important;
+	background:#404659 !important;
+	border-color:#404659 !important;
+}
+.nav-tabs .nav-link.active {
+	display:flex;
+	align-items:center;
+}
+.leaflet-control-zoom-in {
+	background-color: #23242b !important;
+}
+.leaflet-control-zoom-out {
+	background-color: #23242b !important;
+}
+.polyline-measure-unicode-icon {
+	background-color: #23242b !important;
+}
+#unitControlId {
+	background-color: #23242b !important;
+}
+.leaflet-bar a {
+	border-color: hsla(0,0%,100%,.12)!important;
+}
+.leaflet-control-layers-toggle {
+	background-color: #23242b !important;
+}
+.leaflet-control-layers-expanded {
+	background-color: #23242b !important;
+}
+.leaflet-control-layers-overlays {
+	background-color: #23242b !important;
+	color: #ffffff !important;
+}
+.geocoder-control-input {
+	background-color: #23242b !important;
+	color:#fff;
+}
+.post:hover {
+	background-color: #404659;
+	border-radius:0.5rem;
+}
 a.link-stealth:hover {
 	color:#8babe0 !important;
 }
- .two-line-text {
+.two-line-text {
     height: 2.6em; /* adjust the height to fit two lines */
     overflow: hidden;
     text-overflow: ellipsis; /* add "..." to indicate truncated text */
-  }
+ }
 .three-rows-text {
 	overflow: hidden;
 	display: -webkit-box;
 	-webkit-line-clamp: 3;
 	-webkit-box-orient: vertical;  
 }
-.text-news { color:#5A8CFF; }
 .iconExtraClass {margin-top: .75rem !important;}
 	.comma-separated-ul {
 	list-style: none;
@@ -360,24 +359,21 @@ a.link-stealth:hover {
 	-webkit-line-clamp: 3;
 	-webkit-box-orient: vertical;  
 }
-.text-news { color:#5A8CFF; }
+.text-news {color:#5A8CFF;}
 .text-custom-danger {color:#FF5449}
+.text-custom-warning {color:#ED9742;}
 .iconExtraClass {margin-top: .75rem !important;}
 .custom-card {
   max-height: 800px;
   overflow-y: auto;
 }
-
-/* Scrollbar styling */
 .custom-card::-webkit-scrollbar {
   width: 8px;
 }
-
 .custom-card::-webkit-scrollbar-track {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
-
 .custom-card::-webkit-scrollbar-thumb {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 8px;
@@ -389,12 +385,10 @@ a.link-stealth:hover {
 .custom-card-2::-webkit-scrollbar {
   width: 8px;
 }
-
 .custom-card-2::-webkit-scrollbar-track {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
-
 .custom-card-2::-webkit-scrollbar-thumb {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 8px;
@@ -445,3 +439,5 @@ a.link-stealth:hover {
     border: none !important;
     box-shadow: none !important;
 }
+.no-background {background-color:transparent !important;}
+.no-action-required {background-color:#373b49;}
