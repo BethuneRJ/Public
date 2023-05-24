@@ -346,49 +346,6 @@ a.link-stealth:link {
 a.link-stealth:visited {
 	color:#e4e2e6 !important;
 }
-		.geocoder-control-suggestions { color:#000 !important; }
-		.geocoder-control-suggestion:hover{ 
-			color:#fff !important;
-			background:#404659 !important;
-			border-color:#404659 !important;
-		}
-		.nav-tabs .nav-link.active {
-			display:flex;
-			align-items:center;
-		}
-		.leaflet-control-zoom-in {
-			background-color: #23242b !important;
-		}
-		.leaflet-control-zoom-out {
-			background-color: #23242b !important;
-		}
-		.polyline-measure-unicode-icon {
-			background-color: #23242b !important;
-		}
-		#unitControlId {
-			background-color: #23242b !important;
-		}
-		.leaflet-bar a {
-			border-color: hsla(0,0%,100%,.12)!important;
-		}
-		.leaflet-control-layers-toggle {
-			background-color: #23242b !important;
-		}
-		.leaflet-control-layers-expanded {
-			background-color: #23242b !important;
-		}
-		.leaflet-control-layers-overlays {
-			background-color: #23242b !important;
-			color: #ffffff !important;
-		}
-		.geocoder-control-input {
-			background-color: #23242b !important;
-			color:#fff;
-		}
-		.post:hover {
-			background-color: #404659;
-			border-radius:0.5rem;
-		}
 a.link-stealth:hover {
 	color:#8babe0 !important;
 }
@@ -443,11 +400,16 @@ a.link-stealth:hover {
   border-radius: 8px;
 }
 .my-custom-tooltip {
-	background-color: #23242b;
-	color: #fff;
-	border: none;
-	box-shadow: none;
-	border-radius: 8px;
+    background-color: #23242b;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+}
+.leaflet-popup-content-wrapper {
+    background-color: #23242b !important;
+    color: #fff !important;
+    border: none !important;
+    box-shadow: none !important;
 }
   .circle-with-txt {
         color: #000;
