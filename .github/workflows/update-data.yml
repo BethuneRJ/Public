@@ -1,0 +1,26 @@
+# .github/workflows/update-data.yml
+name: Update data
+on:
+  schedule:
+    - cron: '0 */3 * * *' # Run every 3 hours
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14' # Use Node.js 14
+    - name: Install dependencies
+      run: npm install node-fetch
+    - name: Run script
+      run: node update-data.js
+    - name: Commit changes
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add ArcGIS-Hurricane-Data.json
+        git commit -m "Update data" || exit 0
+        git push
