@@ -11,7 +11,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
     - name: Setup Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3 # Updated to v3
       with:
         node-version: '16' # Use Node.js 16
     - name: Install dependencies
