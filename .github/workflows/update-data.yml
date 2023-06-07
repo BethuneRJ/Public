@@ -10,14 +10,12 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-    - name: Setup Node.js
-      uses: actions/setup-node@v3 # Updated to v3
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
       with:
-        node-version: '16' # Use Node.js 16
-    - name: Install dependencies
-      run: npm install node-fetch
-    - name: Run script
-      run: node update-data.js
+        php-version: '8.0'
+    - name: Run PHP script
+      run: php fetch-data.php
     - name: Commit changes
       run: |
         git config user.name "GitHub Actions"
