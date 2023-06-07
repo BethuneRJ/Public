@@ -3,6 +3,7 @@ name: Update data
 on:
   schedule:
     - cron: '0 */3 * * *' # Run every 3 hours
+  workflow_dispatch:  # This allows manual trigger
 jobs:
   update-data:
     runs-on: ubuntu-latest
