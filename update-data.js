@@ -6,9 +6,18 @@ const DATA_URL = 'https://services9.arcgis.com/RHVPKKiFTONKtxq3/arcgis/rest/serv
 const FILE_PATH = 'ArcGIS-Hurricane-Data.json';
 
 fetch(DATA_URL)
-  .then(response => response.json())
+  .then(response => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.json();
+  })
   .then(data => {
-    fs.writeFileSync(FILE_PATH, JSON.stringify(data, null, 2));
-    console.log('Data updated successfully');
+    if (Object.keys(data).length === 0 && data.constructor === Object) {
+      console.log('Data is empty!');
+    } else {
+      fs.writeFileSync(FILE_PATH, JSON.stringify(data, null, 2));
+      console.log('Data updated successfully');
+    }
   })
   .catch(error => console.error('Error:', error));
