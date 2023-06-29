@@ -507,3 +507,10 @@ a.polyline-measure-clearControl:active {
     scrollbar-width: thin;
     scrollbar-color: #888 #404659;
 }
+.truncatedLink {
+	display: inline-block;
+	max-width: 120px; /* You need to adjust this width */
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
