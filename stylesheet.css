@@ -508,7 +508,6 @@ a.polyline-measure-clearControl:active {
     scrollbar-color: #888 #404659;
 }
 .truncatedLink {
-	display: inline-block;
 	max-width: 160px;
 	white-space: nowrap;
 	overflow: hidden;
