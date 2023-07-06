@@ -513,3 +513,13 @@ a.polyline-measure-clearControl:active {
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
+.core-container div {
+	padding: 8px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+.core-container div:hover,
+.core-container div.clicked {
+	background-color: #373b49;
+}
