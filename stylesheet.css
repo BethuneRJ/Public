@@ -14,7 +14,7 @@ body{
 	line-height: 20px;
 	letter-spacing: 0.1px;
 	color: #E4E2E6;
-	background-color:#1b1b1f !important;
+	background-color:#131316 !important;
 }
 .row { --mdb-gutter-x: .5rem !important; }
 ul#swpc-alerts-affected-posts {
@@ -130,7 +130,7 @@ ul#eacs-today, #eacs-older, #sitreps-today, #sitreps-older, #safe-alerts {
 	text-transform: none;
 }
 .bgColour {
-	background-color:#23242b !important;
+	background-color:#1b1b1f !important;
 }
 .gridjs-pagination {
 	color:#fff;
