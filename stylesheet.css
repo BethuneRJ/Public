@@ -18,6 +18,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+	overflow-x: hidden;
 }
 .row { --mdb-gutter-x: .5rem !important; }
 ul#swpc-alerts-affected-posts {
