@@ -15,6 +15,9 @@ body{
 	letter-spacing: 0.1px;
 	color: #E4E2E6;
 	background-color:#131316 !important;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 .row { --mdb-gutter-x: .5rem !important; }
 ul#swpc-alerts-affected-posts {
