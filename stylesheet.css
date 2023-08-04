@@ -507,7 +507,7 @@ a.polyline-measure-clearControl:active {
 #my-missions {
     background-color: #23242B !important;
     max-height: 250px;
-    overflow-y: auto;
+    overflow-y: scroll;
  }
 #my-missions::-webkit-scrollbar {
     width: 10px;
