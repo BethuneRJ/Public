@@ -578,3 +578,33 @@ a.polyline-measure-clearControl:active {
 		a.opm-url:hover {
 			text-decoration: underline !important;
 		}
+.factal-item {
+	padding: 1rem;
+	border-radius: 1.5rem;
+	background-color: transparent;
+	border: 1px solid rgb(255 255 255 / 12%);
+	margin-bottom:0.5rem;
+}
+.factal-header {
+	margin-bottom: 0.25rem;
+	font-size: 1.25rem;
+}
+.whats-new-line-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.whats-new-icon-col {
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whats-new-trunk {
+    flex-grow: 1;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.whats-new-timestamp {
+    white-space: nowrap; /* this will prevent wrapping for timestamps */
+}
