@@ -624,3 +624,7 @@ a.polyline-measure-clearControl:active {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 8px;
 }
+/* Chart JS */
+.chartJS-tooltip {
+    max-width: 150px; 
+}
