@@ -589,6 +589,8 @@ a.polyline-measure-clearControl:active {
 	margin-bottom: 0.25rem;
 	font-size: 1.25rem;
 }
+
+/* Whats New */
 .whats-new-line-item {
     display: flex;
     align-items: center;
@@ -605,17 +607,13 @@ a.polyline-measure-clearControl:active {
     margin-left: 0px;
     margin-right: 10px;
 }
-.whats-new-timestamp {
-    white-space: nowrap; /* this will prevent wrapping for timestamps */
-}
+.whats-new-timestamp { white-space: nowrap; }
 #whats-new {
 	max-height: 350px;
 	overflow-y: auto;
 	padding-right:10px;
 }
-#whats-new::-webkit-scrollbar {
-  width: 8px;
-}
+#whats-new::-webkit-scrollbar { width: 8px; }
 #whats-new::-webkit-scrollbar-track {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -624,10 +622,9 @@ a.polyline-measure-clearControl:active {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 8px;
 }
+
 /* Chart JS */
-.chartJS-tooltip {
-    max-width: 150px; 
-}
+.chartJS-tooltip { max-width: 150px; }
 
 /* Navbar */
 .custom-navbar-text-color { color:#fbfbfb; }
