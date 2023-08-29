@@ -46,6 +46,13 @@ ul#swpc-alerts-affected-posts li:not(:last-child):after {
 	content: "; ";
 }
 
+///* Global Footprint *///
+.suspended-operations-style {
+	column-count:3;
+	list-style:none;
+	padding-inline-start:0px;
+}
+
 ///* Travel Advisories *///
 ul#travel-advisories{
 	list-style: none;
