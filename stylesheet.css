@@ -628,3 +628,6 @@ a.polyline-measure-clearControl:active {
 .chartJS-tooltip {
     max-width: 150px; 
 }
+
+/* Navbar */
+.custom-navbar-text-color { color:#fbfbfb; }
