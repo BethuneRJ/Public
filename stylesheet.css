@@ -45,13 +45,9 @@ ul#swpc-alerts-affected-posts li {
 ul#swpc-alerts-affected-posts li:not(:last-child):after {
 	content: "; ";
 }
+
+/* Travel Advisories */
 ul#travel-advisories{
-	list-style: none;
-	padding-inline-start: 0px;
-	margin-top:0px;
-	margin-bottom:0px;
-}
-ul#post-departures {
 	list-style: none;
 	padding-inline-start: 0px;
 	margin-top:0px;
@@ -61,16 +57,22 @@ ul#travel-advisories li {
 	display: inline;
 	padding-left:10px;
 }
+ul#travel-advisories li:not(:last-child):after { content: " "; }
+
+/* Post Departures */
+ul#post-departures {
+	list-style: none;
+	padding-inline-start: 0px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
 ul#post-departures li {
 	display: inline;
 	padding-left:10px;
 }
-ul#travel-advisories li:not(:last-child):after {
-	content: " ";
-}
-ul#post-departures li:not(:last-child):after {
-	content: "; ";
-}
+ul#post-departures li:not(:last-child):after { content: "; "; }
+
+
 ul#eacs-today, #eacs-older, #sitreps-today, #sitreps-older, #safe-alerts {
 	list-style: none;
 	padding-inline-start: 0px;
@@ -565,19 +567,8 @@ a.polyline-measure-clearControl:active {
 			align-items: center;
 			text-align: center;
 		}
-		a.opm-url {
-			color:#000 !important;
-			text-decoration: none !important;
-			display:inline-block;
-			max-width: 70ch;
-			vertical-align: middle;
-			overflow: hidden;
-			white-space: nowrap;
-			text-overflow: ellipsis;
-		}
-		a.opm-url:hover {
-			text-decoration: underline !important;
-		}
+
+/* Factal */
 .factal-item {
 	padding: 1rem;
 	border-radius: 1.5rem;
@@ -628,3 +619,22 @@ a.polyline-measure-clearControl:active {
 
 /* Navbar */
 .custom-navbar-text-color { color:#fbfbfb; }
+a.opm-url {
+	color:#000 !important;
+	text-decoration: none !important;
+	display:inline-block;
+	max-width: 70ch;
+	vertical-align: middle;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+a.opm-url:hover { text-decoration: underline !important; }
+
+/* Hurricane */
+.hurricane-note {
+	color:#FFF;
+	background-color:transparent;
+	border:1px solid #FF5449;
+	border-radius:16px;
+}
