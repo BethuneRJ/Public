@@ -481,7 +481,7 @@ a.link-stealth:hover {
     border: none !important;
     box-shadow: none !important;
 }
-.leaflet-popup-tip { background: #23242b !important; }
+.leaflet-popup-tip { background-color: #23242b !important; }
 .no-background {background-color:transparent !important;}
 .no-action-required {background-color:#373b49;}
 a.polyline-measure-controlOnBgColor, a.polyline-measure-controlOnBgColor:hover {
