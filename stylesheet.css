@@ -46,7 +46,7 @@ ul#swpc-alerts-affected-posts li:not(:last-child):after {
 	content: "; ";
 }
 
-/* Travel Advisories */
+///* Travel Advisories *///
 ul#travel-advisories{
 	list-style: none;
 	padding-inline-start: 0px;
@@ -58,8 +58,24 @@ ul#travel-advisories li {
 	padding-left:10px;
 }
 ul#travel-advisories li:not(:last-child):after { content: " "; }
+.travel-advisory-one {
+	color:#5A8CFF;
+	transform:rotate(-90deg);
+}
+.travel-advisory-two {
+	color:#B0D500;
+	transform:rotate(-90deg);
+}
+.travel-advisory-three {
+	color:#ED9742;
+	transform:rotate(-90deg);
+}
+.travel-advisory-four {
+	color:#FF5449;
+	transform:rotate(-90deg);
+}
 
-/* Post Departures */
+///* Post Departures *///
 ul#post-departures {
 	list-style: none;
 	padding-inline-start: 0px;
