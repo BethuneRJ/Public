@@ -627,15 +627,21 @@ a.opm-url {
 	text-overflow: ellipsis;
 }
 a.opm-url:hover { text-decoration: underline !important; }
+.opm-status-label {
+    padding: 1px 2px;
+    border-radius: 3px;
+    color: #000000;
+}
+.opm-status-closed { background-color: #FF5449; }
+.opm-status-alert { background-color: #ED9742; }
+.opm-status-default { background-color: #B0D500; }
 #my-missions {
 	background-color: #23242B !important;
 	max-height: 300px;
 	overflow-y: auto;
 	padding-inline-start: 0px;"
  }
-#my-missions, #my-missions li {
-    list-style: none;
-}
+#my-missions, #my-missions li { list-style: none; }
 #my-missions::-webkit-scrollbar { width: 10px; }
 #my-missions::-webkit-scrollbar-track { background: #555; }
 #my-missions::-webkit-scrollbar-thumb { background-color: #888; }
