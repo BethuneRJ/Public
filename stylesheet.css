@@ -52,10 +52,10 @@ ul#swpc-alerts-affected-posts li:not(:last-child):after {
 }
 
 /* Global Footprint */
-ul.suspended-operations-style {
-	column-count:3;
-	list-style:none;
-	padding-inline-start:0px;
+ul#global-footprint-posts.suspended-operations-style {
+    column-count: 3;
+    list-style: none;
+    padding-inline-start: 0px;
 }
 
 /* Travel Advisories */
@@ -502,9 +502,8 @@ a.polyline-measure-clearControl:active {
     background-color: #f88;
 }
 
-.polyline-measure-unicode-icon, .polyline-measure-clearControl, #unitControlId
-{
-    cursor: pointer;
+.polyline-measure-unicode-icon, .polyline-measure-clearControl, #unitControlId {
+	cursor: pointer;
 }
 
 .polyline-measure-tooltip {
