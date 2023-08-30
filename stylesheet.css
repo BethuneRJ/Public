@@ -359,26 +359,17 @@ a.link-stealth:hover {
 .comma-separated-ul li:not(:last-child):after {
 	content: ", ";
 }
-a.link-stealth:link {
-	color:#e4e2e6 !important;
-}
+
+/* Links */
+a.link-stealth:link,
 a.link-stealth:visited {
-	color:#e4e2e6 !important;
+	color: #e4e2e6 !important;
 }
+
 a.link-stealth:hover {
-	color:#8babe0 !important;
+	color: #8babe0 !important;
 }
- .two-line-text {
-    height: 2.6em; /* adjust the height to fit two lines */
-    overflow: hidden;
-    text-overflow: ellipsis; /* add "..." to indicate truncated text */
-  }
-.three-rows-text {
-	overflow: hidden;
-	display: -webkit-box;
-	-webkit-line-clamp: 3;
-	-webkit-box-orient: vertical;  
-}
+
 .text-news {color:#5A8CFF;}
 .text-custom-danger {color:#FF5449}
 .text-custom-warning {color:#ED9742;}
