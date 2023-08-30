@@ -323,45 +323,11 @@ a.link-stealth:visited {
 	-webkit-line-clamp: 3;
 	-webkit-box-orient: vertical;  
 }
-.geocoder-control-suggestions { color:#000 !important; }
-.geocoder-control-suggestion:hover{ 
-	color:#fff !important;
-	background:#404659 !important;
-	border-color:#404659 !important;
-}
 .nav-tabs .nav-link.active {
 	display:flex;
 	align-items:center;
 }
-.leaflet-control-zoom-in {
-	background-color: #23242b !important;
-}
-.leaflet-control-zoom-out {
-	background-color: #23242b !important;
-}
-.polyline-measure-unicode-icon {
-	background-color: #23242b !important;
-}
-#unitControlId {
-	background-color: #23242b !important;
-}
-.leaflet-bar a {
-	border-color: hsla(0,0%,100%,.12)!important;
-}
-.leaflet-control-layers-toggle {
-	background-color: #23242b !important;
-}
-.leaflet-control-layers-expanded {
-	background-color: #23242b !important;
-}
-.leaflet-control-layers-overlays {
-	background-color: #23242b !important;
-	color: #ffffff !important;
-}
-.geocoder-control-input {
-	background-color: #23242b !important;
-	color:#fff;
-}
+
 .post:hover {
 	background-color: #404659;
 	border-radius:0.5rem;
@@ -447,6 +413,8 @@ a.link-stealth:hover {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 8px;
 }
+
+/* Leaflet */
 .my-custom-tooltip {
     background-color: #23242b !important;
     color: #fff !important;
@@ -465,7 +433,33 @@ a.link-stealth:hover {
     border: none !important;
     box-shadow: none !important;
 }
-.leaflet-popup-tip { background-color: #23242b !important; }
+.leaflet-popup-tip,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out,
+.polyline-measure-unicode-icon,
+.leaflet-control-layers-toggle,
+.leaflet-control-layers-expanded,
+.leaflet-control-layers-overlays,
+.geocoder-control-input,
+#unitControlId, {
+    background-color: #23242b !important;
+}
+
+.leaflet-bar a {
+    border-color: hsla(0,0%,100%,.12) !important;
+}
+
+.leaflet-control-layers-overlays,
+.geocoder-control-input {
+    color: #ffffff !important;
+}
+.geocoder-control-suggestions { color:#000 !important; }
+.geocoder-control-suggestion:hover{ 
+	color:#fff !important;
+	background:#404659 !important;
+	border-color:#404659 !important;
+}
+
 .no-background {background-color:transparent !important;}
 .no-action-required {background-color:#373b49;}
 a.polyline-measure-controlOnBgColor, a.polyline-measure-controlOnBgColor:hover {
@@ -566,6 +560,12 @@ a.polyline-measure-clearControl:active {
 .factal-header {
 	margin-bottom: 0.25rem;
 	font-size: 1.25rem;
+}
+.factal { color:#eb3300; }
+.factal-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Whats New */
