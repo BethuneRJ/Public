@@ -46,14 +46,14 @@ ul#swpc-alerts-affected-posts li:not(:last-child):after {
 	content: "; ";
 }
 
-///* Global Footprint *///
-.suspended-operations-style {
+/* Global Footprint */
+ul.suspended-operations-style {
 	column-count:3;
 	list-style:none;
 	padding-inline-start:0px;
 }
 
-///* Travel Advisories *///
+/* Travel Advisories */
 ul#travel-advisories{
 	list-style: none;
 	padding-inline-start: 0px;
@@ -83,7 +83,7 @@ ul#travel-advisories li:not(:last-child):after { content: " "; }
 	transform:rotate(-90deg);
 }
 
-///* Post Departures *///
+/* Post Departures */
 ul#post-departures {
 	list-style: none;
 	padding-inline-start: 0px;
