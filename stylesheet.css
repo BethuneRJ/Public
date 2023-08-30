@@ -459,34 +459,6 @@ a.link-stealth:hover {
     border: none !important;
     box-shadow: none !important;
 }
-  .circle-with-txt {
-        color: #000;
-        font-size: 23px;
-        line-height: 25px;
-        text-align: center;
-        vertical-align: bottom;
-        box-shadow: 2px 1px 4px rgba(0,0,0,0.2);
-        border-radius: 30px;
-        border-width: 3px;
-        border: 2px solid #fff;
-        opacity: .9;
-  }
-  .txt-for-circle {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-size: 16px;
-  }
-.category-five { background-color: #ff00ff; } /* Bright Magenta */
-.category-four { background-color: #ff4500; } /* OrangeRed */
-.category-three { background-color: #ff8c00; } /* DarkOrange */
-.category-two { background-color: #ffd700; } /* Gold */
-.category-one { background-color: #ffff00; } /* Yellow */
-.tropical-storm { background-color: #adff2f; } /* GreenYellow */
-.tropical-depression { background-color: #00ffff; } /* Aqua */
 .leaflet-popup-content-wrapper {
     background-color: #23242b !important;
     color: #fff !important;
@@ -689,3 +661,31 @@ a.opm-url:hover { text-decoration: underline !important; }
 	border:1px solid #FF5449;
 	border-radius:16px;
 }
+.circle-with-txt {
+	color: #000;
+	font-size: 23px;
+	line-height: 25px;
+	text-align: center;
+	vertical-align: bottom;
+	box-shadow: 2px 1px 4px rgba(0,0,0,0.2);
+	border-radius: 30px;
+	border-width: 3px;
+	border: 2px solid #fff;
+	opacity: .9;
+}
+.txt-for-circle {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-size: 16px;
+}
+.category-five { background-color: #ff00ff; }
+.category-four { background-color: #ff4500; }
+.category-three { background-color: #ff8c00; }
+.category-two { background-color: #ffd700; }
+.category-one { background-color: #ffff00; }
+.tropical-storm { background-color: #adff2f; }
+.tropical-depression { background-color: #00ffff; }
