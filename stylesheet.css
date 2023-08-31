@@ -432,7 +432,7 @@ a.link-stealth:hover {
 .leaflet-control-layers-expanded,
 .leaflet-control-layers-overlays,
 .geocoder-control-input,
-#unitControlId, {
+#unitControlId {
     background-color: #23242b !important;
 }
 
