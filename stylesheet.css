@@ -102,7 +102,7 @@ ul#post-departures li {
 ul#post-departures li:not(:last-child):after { content: "; "; }
 
 
-/* Cables * /
+/* Cables */
 .disease-badge {
 	border-radius:10px;
 	border:2px solid #FFB68A;
@@ -336,10 +336,10 @@ a.link-stealth:hover {
 	color:#8babe0 !important;
 }
 .two-line-text {
-    height: 2.6em; /* adjust the height to fit two lines */
-    overflow: hidden;
-    text-overflow: ellipsis; /* add "..." to indicate truncated text */
- }
+	height: 2.6em; /* adjust the height to fit two lines */
+	overflow: hidden;
+	text-overflow: ellipsis; /* add "..." to indicate truncated text */
+}
 .three-rows-text {
 	overflow: hidden;
 	display: -webkit-box;
