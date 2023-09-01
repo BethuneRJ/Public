@@ -625,13 +625,11 @@ a.opm-url {
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
+	padding: 1px 2px;
+	border-radius: 3px;
+    	color: #000000;
 }
 a.opm-url:hover { text-decoration: underline !important; }
-.opm-status-label {
-    padding: 1px 2px;
-    border-radius: 3px;
-    color: #000000;
-}
 .opm-status-closed { background-color: #FF5449; }
 .opm-status-alert { background-color: #ED9742; }
 .opm-status-default { background-color: #B0D500; }
