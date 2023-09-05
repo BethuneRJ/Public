@@ -659,7 +659,16 @@ a.opm-url:hover { text-decoration: underline !important; }
 }
 
 /* Operations Spot Reports */
-.ops-spot-color: { color:#FF5449; }
+.ops-spot-color { color:#FF5449; }
+
+/* Operations Alerts */
+.ops-alerts-color { color:#ED9742; }
+
+/* DS Alerts */
+.ds-alerts-color { color:#ED9742; }
+
+/* Message to US Citizens */
+.mascot-color { color:#FF5449; }
 
 /* Hurricane */
 .hurricane-note {
