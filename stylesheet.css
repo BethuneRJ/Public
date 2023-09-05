@@ -633,6 +633,7 @@ a.opm-url:hover { text-decoration: underline !important; }
 .opm-status-closed { background-color: #FF5449; }
 .opm-status-alert { background-color: #ED9742; }
 .opm-status-default { background-color: #B0D500; }
+.status-label { border-radius: 3px; }
 #my-missions {
 	background-color: #23242B !important;
 	max-height: 300px;
