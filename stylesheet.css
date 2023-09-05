@@ -658,6 +658,9 @@ a.opm-url:hover { text-decoration: underline !important; }
     scrollbar-color: #888 #404659;
 }
 
+/* Operations Spot Reports */
+.ops-spot-color: { color:#FF5449; }
+
 /* Hurricane */
 .hurricane-note {
 	color:#FFF;
