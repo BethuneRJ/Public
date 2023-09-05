@@ -611,6 +611,13 @@ a.polyline-measure-clearControl:active {
 	height:250px;
 }
 
+/* Factal */
+.factal-severity-one { color:#FFF; }
+.factal-severity-two { color:#5A8CFF; }
+.factal-severity-three { color:#B0D500; }
+.factal-severity-four { color:#ED9742; }
+.factal-severity-five { color:#FF5449; }
+
 /* Chart JS */
 .chartJS-tooltip { max-width: 150px; }
 
@@ -633,7 +640,10 @@ a.opm-url:hover { text-decoration: underline !important; }
 .opm-status-closed { background-color: #FF5449; }
 .opm-status-alert { background-color: #ED9742; }
 .opm-status-default { background-color: #B0D500; }
-.status-label { border-radius: 3px; }
+.status-label {
+	border-radius: 3px;
+	padding:2px;
+}
 #my-missions {
 	background-color: #23242B !important;
 	max-height: 300px;
