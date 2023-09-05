@@ -558,6 +558,11 @@ a.polyline-measure-clearControl:active {
     justify-content: center;
     align-items: center;
 }
+.factal-severity-one { color:#FFF; }
+.factal-severity-two { color:#5A8CFF; }
+.factal-severity-three { color:#B0D500; }
+.factal-severity-four { color:#ED9742; }
+.factal-severity-five { color:#FF5449; }
 
 /* Whats New */
 .whats-new-line-item {
@@ -610,13 +615,6 @@ a.polyline-measure-clearControl:active {
 	width:100%;
 	height:250px;
 }
-
-/* Factal */
-.factal-severity-one { color:#FFF; }
-.factal-severity-two { color:#5A8CFF; }
-.factal-severity-three { color:#B0D500; }
-.factal-severity-four { color:#ED9742; }
-.factal-severity-five { color:#FF5449; }
 
 /* Chart JS */
 .chartJS-tooltip { max-width: 150px; }
