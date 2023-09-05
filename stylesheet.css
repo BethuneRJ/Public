@@ -705,3 +705,6 @@ a.opm-url:hover { text-decoration: underline !important; }
 .category-one { background-color: #ffff00; }
 .tropical-storm { background-color: #adff2f; }
 .tropical-depression { background-color: #00ffff; }
+.tropical-cyclone-red-alert { color:#FF5449; }
+.tropical-cyclone-orange-alert { color:#ED9742; }
+.tropical-cyclone-green-alert { color:#B0D500; }
