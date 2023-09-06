@@ -706,8 +706,8 @@ a.opm-url:hover { text-decoration: underline !important; }
 .tropical-storm { background-color: #adff2f; }
 .tropical-depression { background-color: #00ffff; }
 .tropical-cyclone-red-alert { color:#FF5449; }
-.tropical-cyclone-note-red-alert { border-color:#FF5449; }
 .tropical-cyclone-orange-alert { color:#ED9742; }
-.tropical-cyclone-note-red-alert { border-color:#ED9742; }
 .tropical-cyclone-green-alert { color:#B0D500; }
-.tropical-cyclone-note-red-alert { border-color:#B0D500; }
+.tropical-cyclone-note-red-alert { border-color:#FF5449; }
+.tropical-cyclone-note-orange-alert { border-color:#ED9742; }
+.tropical-cyclone-note-green-alert { border-color:#B0D500; }
