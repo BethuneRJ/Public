@@ -732,7 +732,7 @@ a.opm-url:hover { text-decoration: underline !important; }
     }
     50% {
         transform: scale(1.5);
-        opacity: 0.6;
+        opacity: 0.8;
     }
     100% {
         transform: scale(1);
