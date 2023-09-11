@@ -564,6 +564,19 @@ a.polyline-measure-clearControl:active {
 .factal-severity-four { color:#ED9742; }
 .factal-severity-five { color:#FF5449; }
 
+/* Recent - Mission */
+.recent-geospatial {
+	cursor: pointer;
+	transition: transform 0.2s, color 0.2s;
+}
+.recent-geospatial:hover {
+	transform: scale(1.1); 
+	color: #3498db;
+}
+.recent-geospatial:active {
+	transform: scale(1.0);
+}
+
 /* Whats New */
 .whats-new-line-item {
     display: flex;
