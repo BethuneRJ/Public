@@ -724,3 +724,21 @@ a.opm-url:hover { text-decoration: underline !important; }
 .tropical-cyclone-note-red-alert { border-color:#FF5449; }
 .tropical-cyclone-note-orange-alert { border-color:#ED9742; }
 .tropical-cyclone-note-green-alert { border-color:#B0D500; }
+/* Mission - Factal */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.5);
+        opacity: 0.6;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.pulse-icon div {
+    animation: pulse 2s infinite;
+}
