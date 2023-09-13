@@ -977,7 +977,7 @@ a.polyline-measure-clearControl:active {
   padding: 1rem;
   border-radius: 1.5rem;
   background-color: var(--surface-container-low);
-  border: 1px solid var(--outline-variant);
+  /* border: 1px solid var(--outline-variant); */
   margin-bottom: 0.5rem;
 }
 .factal-header {
