@@ -1816,3 +1816,34 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(
   padding: 0;
   font-size: 0.8rem;
 }
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  gap: 2rem;
+}
+.footer-logo {
+  --logo-height: 64px;
+  height: var(--logo-height);
+  width: calc(var(--logo-height) * 6);
+  flex-basis: calc(var(--logo-height) * 6);
+  flex-shrink: 0;
+  display: block;
+  background-image: var(--ops-logo);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.footer-text {
+  padding-top: .5rem;
+}
+.footer-text h6 {
+  font-size: .875rem;
+  line-height: 1rem;
+  font-weight: 600;
+}
+.footer-text p {
+  font-size: .75rem;
+  line-height: 1.125rem;
+  color: var(--on-surface-variant);
+  max-width: 40rem;
+}
