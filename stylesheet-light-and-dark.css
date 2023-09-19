@@ -1307,11 +1307,13 @@ a.opm-url:hover {
 
   --filter-invert-level: invert(0);
   --brightness-hovered: 1.15;
+  --ops-logo: url("https://cdn.jsdelivr.net/gh/BethuneRJ/Public@main/ses-o_logo_external_horizontal_light_text.svg");
 }
 
 :root {
   --filter-invert-level: invert(1);
   --brightness-hovered: 0.75;
+  --ops-logo: url("https://cdn.jsdelivr.net/gh/BethuneRJ/Public@main/ses-o_logo_external_horizontal_dark_text.svg");
 }
 
 :root {
