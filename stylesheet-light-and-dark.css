@@ -45,6 +45,8 @@ body {
 .row {
   --mdb-gutter-x: 0.5rem !important;
 }
+
+/* Space Weather */
 ul#swpc-alerts-affected-posts {
   list-style: none;
   padding-inline-start: 0px;
@@ -56,6 +58,15 @@ ul#swpc-alerts-affected-posts li {
 }
 ul#swpc-alerts-affected-posts li:not(:last-child):after {
   content: "; ";
+}
+.space-weather-note-red-alert {
+  border-color: var(--error-50);
+}
+.space-weather-note-orange-alert {
+  border-color: var(--amber);
+}
+.space-weather-note-green-alert {
+  border-color: var(--venom);
 }
 
 /* Global Footprint */
