@@ -75,13 +75,13 @@ ul#swpc-alerts-affected-posts li:not(:last-child):after {
   border-color: var(--venom);
 }
 .space-weather-icon-red-alert {
-  border-color: var(--error-50);
+  color: var(--error-50);
 }
 .space-weather-icon-orange-alert {
-  border-color: var(--amber);
+  color: var(--amber);
 }
 .space-weather-icon-green-alert {
-  border-color: var(--venom);
+  color: var(--venom);
 }
 /* Global Footprint */
 ul#global-footprint-posts.suspended-operations-style {
