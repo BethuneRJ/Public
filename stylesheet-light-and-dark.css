@@ -71,7 +71,6 @@ ul#swpc-alerts-affected-posts li:not(:last-child):after {
 .space-weather-note {
   color: var(--on-surface);
   background-color: var(--surface-container-low);
-  border: 1px solid var(--error-60);
   border-radius: 16px;
 }
 
