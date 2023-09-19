@@ -59,6 +59,12 @@ ul#swpc-alerts-affected-posts li {
 ul#swpc-alerts-affected-posts li:not(:last-child):after {
   content: "; ";
 }
+.space-weather-note {
+  color: var(--on-surface);
+  background-color: var(--surface-container-low);
+  border-radius: 16px;
+  border: 1px solid var(--error-60);
+}
 .space-weather-note-red-alert {
   border-color: var(--error-50);
 }
@@ -67,12 +73,6 @@ ul#swpc-alerts-affected-posts li:not(:last-child):after {
 }
 .space-weather-note-green-alert {
   border-color: var(--venom);
-}
-.space-weather-note {
-  color: var(--on-surface);
-  background-color: var(--surface-container-low);
-  border-radius: 16px;
-  border: 1px solid var(--error-60);
 }
 
 /* Global Footprint */
