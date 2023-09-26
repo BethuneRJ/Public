@@ -14,6 +14,15 @@
   background: var(--outline);
 }
 
+:root {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
 /* Print */
 @media print {
   body {
@@ -32,15 +41,19 @@ body {
   font-family: "Inter", sans-serif !important;
   font-feature-settings: "ss04" on;
   font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0.1px;
+  font-weight: 400;
+  line-height: 1.375em;
+  letter-spacing: -0.006px;
   color: var(--on-surface);
   background-color: var(--surface) !important;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   overflow-x: hidden;
+}
+h4,
+.h4 {
+  font-weight: 500;
 }
 .row {
   --mdb-gutter-x: 0.5rem !important;
@@ -1905,4 +1918,66 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(
   &:focus-visible::before {
     opacity: var(--opacity-focused);
   }
+}
+/* Vertical Line */
+.card-intro {
+  position: relative;
+}
+.vertical-line {
+  background-color: var(--outline-variant);
+  width: 1px;
+  height: 100%;
+  position: absolute;
+}
+/* Crises card */
+.crisis-title {
+  font-weight: 500;
+  padding-bottom: 0.25rem;
+}
+.crisis-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0.25rem;
+}
+.crisis-details > a {
+  padding-left: 0.5rem;
+  font-weight: 500;
+}
+/* search field */
+.search-input-group {
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  background-color: var(--surface);
+  outline: 1px solid var(--outline-variant);
+  transition: all 0.1s ease-in-out;
+  padding-right: 0.5rem;
+  max-width: 400px;
+}
+.search-input-group:hover {
+  outline-color: var(--outline);
+}
+.search-input-group:active {
+  outline-color: var(--primary);
+}
+.search-input-group:focus {
+  outline-color: var(--primary);
+}
+.search-input-group-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: transparent;
+  color: var(--on-surface-variant);
+}
+.search-input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--on-surface);
+  width: 100%;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
