@@ -89,6 +89,10 @@ ul#global-footprint-posts.suspended-operations-style {
   padding-inline-start: 0px;
 }
 
+/* Mission Recent Card */
+.hide-recent-item { display: none; }
+.show-recent-item { display: block; }
+
 /* Travel Advisories */
 ul#travel-advisories {
   list-style: none;
