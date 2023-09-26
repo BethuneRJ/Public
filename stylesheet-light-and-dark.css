@@ -93,10 +93,10 @@ ul#global-footprint-posts.suspended-operations-style {
 .hide-recent-item { display: none; }
 .show-recent-item { display: block; }
 /* Define styles for the default and "active" state of the button */
-button#showHideRecentButton {
+button#ShowHideRecentButton {
   
 }
-button#showHideRecentButton.active {
+button#ShowHideRecentButton.active {
   color: var(--color);
   border-radius: 8px;
   border: none;
