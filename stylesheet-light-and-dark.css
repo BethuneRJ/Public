@@ -1882,8 +1882,8 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(
   max-width: 40rem;
 }
 .nav-pills:not(.menu-sidebar) .nav-link.active {
-  --color: var(--on-primary-container);
-  --background-color: var(--primary-container);
+  --color: var(--on-secondary-container);
+  --background-color: var(--secondary-container);
   --pill-outline: none;
 }
 .nav-pills:not(.menu-sidebar) .nav-link {
