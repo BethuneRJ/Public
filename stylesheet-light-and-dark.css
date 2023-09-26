@@ -170,9 +170,6 @@ ul#post-departures li {
   display: inline;
   padding-left: 10px;
 }
-ul#post-departures li:not(:last-child):after {
-  content: "; ";
-}
 
 /* Cables */
 .disease-badge {
