@@ -92,6 +92,21 @@ ul#global-footprint-posts.suspended-operations-style {
 /* Mission Recent Card */
 .hide-recent-item { display: none; }
 .show-recent-item { display: block; }
+/* Define styles for the default and "active" state of the button */
+button#showHideRecentButton {
+  
+}
+button#showHideRecentButton.active {
+  color: var(--color);
+  border-radius: 8px;
+  border: none;
+  padding: 0.625rem 1rem;
+  position: relative;
+  overflow: hidden;
+  outline: var(--pill-outline);
+  outline-offset: -1px;
+  background-color: var(--background-color);
+}
 
 /* Travel Advisories */
 ul#travel-advisories {
