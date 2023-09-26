@@ -1983,3 +1983,9 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(
   width: 100%;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
+select:focus {
+  background-color: var(--surface);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.08), 0 0 8px rgba(0, 0, 0, 0.12),
+    0 0 32px rgba(0, 0, 0, 0.12);
+}
