@@ -1984,3 +1984,35 @@ select:focus {
   background-color: var(--surface);
   border-radius: 0.5rem;
 }
+/* Departures */
+#post-departures {
+  gap: 0.25rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+ul#post-departures li {
+  display: inline-flex;
+  padding: 1rem;
+}
+.departure-item {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  border-radius: 1rem;
+  background-color: var(--surface-container);
+}
+.departure-status {
+  display: inline-flex;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+.departure-reason {
+  display: inline-flex;
+}
