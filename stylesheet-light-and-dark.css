@@ -1859,7 +1859,7 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(
   --logo-height: 64px;
   height: var(--logo-height);
   width: calc(var(--logo-height) * 6);
-  max-width: 90%;
+  max-width: 100%;
   flex-basis: calc(var(--logo-height) * 6);
   flex-shrink: 0;
   display: block;
