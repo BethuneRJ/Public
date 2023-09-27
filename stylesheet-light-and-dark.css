@@ -590,14 +590,14 @@ a.link-stealth:hover {
 
 /* Leaflet */
 .my-custom-tooltip {
-  background-color: var(--surface-container) !important;
-  color: var(--on-surface) !important;
+  background-color: #23242b !important;
+  color: var(--white) !important;
   border: none !important;
   box-shadow: none !important;
 }
 .leaflet-popup-content-wrapper {
-  background-color: var(--surface-container) !important;
-  color: var(--on-surface) !important;
+  background-color: #23242b !important;
+  color: var(--white) !important;
   border: none !important;
   box-shadow: none !important;
 }
@@ -610,7 +610,7 @@ a.link-stealth:hover {
 .leaflet-control-layers-overlays,
 .geocoder-control-input,
 #unitControlId {
-  background-color: var(--surface-container) !important;
+  background-color: #23242b !important;
 }
 .leaflet-bar a {
   border-color: var(--outline-variant) !important;
