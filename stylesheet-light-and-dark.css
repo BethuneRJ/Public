@@ -2079,9 +2079,6 @@ button.gridjs-sort {
 .post:active::after {
   opacity: var(--opacity-pressed);
 }
-.iconExtraClass {
-  margin-top: 0.75rem !important;
-}
 /* Recent - Mission */
 .recent-geospatial {
 	cursor: pointer;
