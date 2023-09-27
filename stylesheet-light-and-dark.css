@@ -2016,3 +2016,34 @@ ul#post-departures li {
 .departure-reason {
   display: inline-flex;
 }
+
+/* Mission */
+.weather-conditions-icon {
+    filter: drop-shadow(0px 1px 0.5px rgb(0, 0, 0, 0.5));
+}
+#user-count {
+  padding: 0 0.25rem;
+  outline: 1px solid var(--outline-variant);
+  outline-offset: 0.125rem;
+  border-radius: 0.125rem;
+}
+.list-item-2-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.gridjs-search input.gridjs-input {
+  position: relative;
+  border-radius: 0.5rem;
+  border: 1px solid var(--outline);
+  background-color: var(--surface-container-low);
+  color: var(--on-surface);
+  padding: 0.5rem;
+}
+.gridjs-search input.gridjs-input:focus {
+  box-shadow: 0 0 0 2px var(--primary);
+  border-color: var(--primary);
+}
+button.gridjs-sort {
+  filter: var(--filter-invert-on-dark);
+}
