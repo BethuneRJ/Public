@@ -601,12 +601,6 @@ a.link-stealth:hover {
   border: none !important;
   box-shadow: none !important;
 }
-.leaflet-popup-content-wrapper {
-  background-color: var(--surface-container) !important;
-  color: var(--on-surface) !important;
-  border: none !important;
-  box-shadow: none !important;
-}
 .leaflet-popup-tip,
 .leaflet-control-zoom-in,
 .leaflet-control-zoom-out,
@@ -618,11 +612,9 @@ a.link-stealth:hover {
 #unitControlId {
   background-color: var(--surface-container) !important;
 }
-
 .leaflet-bar a {
   border-color: var(--outline-variant) !important;
 }
-
 .leaflet-control-layers-overlays,
 .geocoder-control-input {
   color: var(--on-surface) !important;
