@@ -2094,3 +2094,12 @@ button.gridjs-sort {
 	border: 1px solid var(--error-50);
 	border-radius: 0.5rem;
 }
+.lottie-preloader {
+	width: 300px;
+	height: 300px;
+}
+.eagle-image {
+	filter: saturate(0);
+	mix-blend-mode: difference;
+	opacity: 0.1;
+}
