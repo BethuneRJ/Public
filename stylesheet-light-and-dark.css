@@ -2079,32 +2079,18 @@ button.gridjs-sort {
 .post:active::after {
   opacity: var(--opacity-pressed);
 }
-a.link-stealth:hover {
-  color: var(--primary) !important;
-}
-.two-line-text {
-  height: 2.6em; /* adjust the height to fit two lines */
-  overflow: hidden;
-  text-overflow: ellipsis; /* add "..." to indicate truncated text */
-}
-.three-rows-text {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-}
 .iconExtraClass {
   margin-top: 0.75rem !important;
 }
-.comma-separated-ul {
-  list-style: none;
-  padding-inline-start: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+/* Recent - Mission */
+.recent-geospatial {
+	cursor: pointer;
+	transition: transform 0.2s, color 0.2s;
 }
-.comma-separated-ul li {
-  display: inline;
+.recent-geospatial:hover {
+	transform: scale(1.1); 
+	color: #3498db;
 }
-.comma-separated-ul li:not(:last-child):after {
-  content: ", ";
+.recent-geospatial:active {
+	transform: scale(1.0);
 }
