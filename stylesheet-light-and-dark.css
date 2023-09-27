@@ -41,8 +41,8 @@ body {
   font-family: "Inter", sans-serif !important;
   font-feature-settings: "ss04" on;
   font-size: 14px;
-  font-weight: 400;
-  line-height: 1.375em;
+  font-weight: var(--font-weight-regular);
+  line-height: 20px;
   letter-spacing: -0.006px;
   color: var(--on-surface);
   background-color: var(--surface) !important;
@@ -1337,13 +1337,17 @@ a.opm-url:hover {
   --on-venom: var(--venom-20);
   --venom: var(--venom-80);
 
-  --filter-invert-level: invert(0);
+  --font-weight-regular: 400;
+  --filter-invert-on-light: invert(0);
+  --filter-invert-on-dark: invert(1);
   --brightness-hovered: 1.15;
   --ops-logo: url("https://cdn.jsdelivr.net/gh/BethuneRJ/Public@main/ses-o_logo_external_horizontal_light_text.svg");
 }
 
 :root {
-  --filter-invert-level: invert(1);
+  --font-weight-regular: 415;
+  --filter-invert-on-light: invert(1);
+  --filter-invert-on-dark: invert(0);
   --brightness-hovered: 0.75;
   --ops-logo: url("https://cdn.jsdelivr.net/gh/BethuneRJ/Public@main/ses-o_logo_external_horizontal_dark_text.svg");
 }
