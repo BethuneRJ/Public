@@ -2054,9 +2054,6 @@ ul#post-departures li {
 button.gridjs-sort {
   filter: var(--filter-invert-on-dark);
 }
-.navbar-brand svg path {
-  fill: var(--on-surface);
-}
 .post {
   padding: 0.5rem;
   position: relative;
