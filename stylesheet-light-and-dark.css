@@ -1788,7 +1788,7 @@ a.opm-url:hover {
 }
 a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(
     .navbar-brand
-  ):not(.page-link):not(.carousel-control-prev):not(.carousel-control-next) {
+  ):not(.page-link):not(.carousel-control-prev):not(.carousel-control-next)::not(.leaflet-container a.leaflet-popup-close-button) {
   color: var(--primary);
   position: relative;
 }
