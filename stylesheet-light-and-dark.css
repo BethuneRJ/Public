@@ -2088,3 +2088,9 @@ button.gridjs-sort {
 .recent-geospatial:active {
 	transform: scale(1.0);
 }
+.mission-departure-status {
+	color: var(--on-surface);
+	background-color: transparent;
+	border: 1px solid var(--error-50);
+	border-radius: 0.5rem;
+}
