@@ -1126,6 +1126,9 @@ a.polyline-measure-clearControl:active {
 .custom-navbar-text-color {
   color: var(--on-surface);
 }
+      .navbar-brand {
+        color: var(--on-surface);
+      }
 a.opm-url {
   color: var(--venom) !important;
   text-decoration: none !important;
