@@ -2053,3 +2053,54 @@ button.gridjs-sort {
 .navbar-brand svg path {
   fill: var(--on-surface);
 }
+.post {
+  padding: 0.5rem;
+  position: relative;
+  overflow: hidden;
+}
+.post::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-color: var(--on-surface);
+  opacity: 0;
+}
+.post:hover::after {
+  opacity: var(--opacity-hovered);
+}
+.post:active::after {
+  opacity: var(--opacity-pressed);
+}
+a.link-stealth:hover {
+  color: var(--primary) !important;
+}
+.two-line-text {
+  height: 2.6em; /* adjust the height to fit two lines */
+  overflow: hidden;
+  text-overflow: ellipsis; /* add "..." to indicate truncated text */
+}
+.three-rows-text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.iconExtraClass {
+  margin-top: 0.75rem !important;
+}
+.comma-separated-ul {
+  list-style: none;
+  padding-inline-start: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.comma-separated-ul li {
+  display: inline;
+}
+.comma-separated-ul li:not(:last-child):after {
+  content: ", ";
+}
