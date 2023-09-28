@@ -256,7 +256,9 @@ ul#eacs-today,
   color: var(--primary) !important;
   font-weight: bold;
 }
-
+.navbar-text {
+	color: var(--on-surface);
+}
 .nav-tabs .nav-link {
   position: relative;
   color: var(--on-surface-variant);
