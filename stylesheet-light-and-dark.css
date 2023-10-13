@@ -1225,6 +1225,7 @@ a.opm-url:hover {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   font-size: 16px;
+  color: var(--black);
 }
 .category-five {
   background-color: #ff00ff;
