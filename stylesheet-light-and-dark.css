@@ -2104,3 +2104,56 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
 .navbar-brand, .navbar-brand:hover {
 	color: var(--on-surface);
 }
+/* List item */
+
+.list-group-item {
+        background-color: transparent !important;
+        color: var(--on-surface-variant) !important;
+        border-radius: 0 !important;
+        border-left: 1px solid transparent !important;
+        padding: 0.375rem 1rem !important;
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        white-space: nowrap;
+        font-weight: 400;
+        transition: all 50ms;
+}
+.list-group-item:hover {
+          border-left: 1px solid var(--outline) !important;
+}
+.list-group-item.active {
+          border-left: 1px solid var(--on-surface) !important;
+          color: var(--on-surface) !important;
+          font-weight: 500;
+}
+.list-group-sidebar {
+	width: 16rem !important;
+}
+.content {
+        min-width: 50% !important;
+        width: calc(100% - 17rem) !important;
+}
+/* Layout fix for sidebar overlapping content  */
+/* Add .no-wrap to row class element containing the two columns */
+@media (min-width: 1400px) {
+  .no-wrap {
+    flex-wrap: nowrap;
+  }
+}
+
+/* Add .fill-space to 2nd column */
+@media (min-width: 1400px) {
+  .fill-space {
+    flex: auto;
+    padding: 0;
+  }
+}
+
+/* Add .wrap-text to element with 'trunk' class */
+@media (min-width: 1400px) {
+  .wrap-text {
+    white-space: normal;
+  }
+}
+
