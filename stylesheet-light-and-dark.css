@@ -2149,33 +2149,3 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
           color: var(--on-surface) !important;
           font-weight: 500;
 }
-.list-group-sidebar {
-	width: 16rem !important;
-}
-.content {
-        min-width: 50% !important;
-        width: calc(100% - 17rem) !important;
-}
-/* Layout fix for sidebar overlapping content  */
-/* Add .no-wrap to row class element containing the two columns */
-@media (min-width: 1400px) {
-  .no-wrap {
-    flex-wrap: nowrap;
-  }
-}
-
-/* Add .fill-space to 2nd column */
-@media (min-width: 1400px) {
-  .fill-space {
-    flex: auto;
-    padding: 0;
-  }
-}
-
-/* Add .wrap-text to element with 'trunk' class */
-@media (min-width: 1400px) {
-  .wrap-text {
-    white-space: normal;
-  }
-}
-
