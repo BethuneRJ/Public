@@ -25,7 +25,7 @@
   width: 100%;
 }
 .docs-sidebar {
-  flex: 1 1 0;
+  flex: 0 1 0;
   padding-bottom: 1rem;
 }
 .docs-content {
