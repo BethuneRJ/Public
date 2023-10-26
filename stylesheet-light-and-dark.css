@@ -14,6 +14,28 @@
   background: var(--outline);
 }
 
+@media screen and (min-width: 768px) {
+.docs-row {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+}
+.docs-row {
+  width: 100%;
+}
+.docs-sidebar {
+  flex: 1 1 0;
+  padding-bottom: 1rem;
+}
+.docs-content {
+  min-width: 50%;
+  flex-grow: 1;
+}
+.docs-content .trunk {
+  white-space: normal;
+}
+
 :root {
   font-family: "Inter", sans-serif;
 }
