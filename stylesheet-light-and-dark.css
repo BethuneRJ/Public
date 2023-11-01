@@ -641,7 +641,7 @@ a.link-stealth:hover {
 }
 .leaflet-control-layers-overlays,
 .geocoder-control-input {
-  color: var(--on-surface) !important;
+  color: white !important;
 }
 .geocoder-control-suggestions {
   color: #000 !important;
