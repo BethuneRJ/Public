@@ -2149,3 +2149,7 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
           color: var(--on-surface) !important;
           font-weight: 500;
 }
+
+.border, .border-bottom, .border-left, .border-right, .border-top {
+    border-color: var(--surface-container-highest) !important;
+}
