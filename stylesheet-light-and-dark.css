@@ -2151,5 +2151,5 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
 }
 
 .border, .border-bottom, .border-left, .border-right, .border-top {
-    border-color: var(--surface-container-highest) !important;
+    border-color: var(--outline-variant) !important;
 }
