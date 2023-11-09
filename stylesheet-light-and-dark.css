@@ -1291,7 +1291,7 @@ a.opm-url:hover {
 
 /* Semantic Variables */
 /* [color-scheme='dark'] { wrap the following } */
-.darkmode {
+.darkmode, #map {
   --primary: var(--primary-80);
   --on-primary: var(--primary-20);
   --primary-container: var(--primary-30);
