@@ -2042,6 +2042,24 @@ ul#post-departures li {
 }
 
 /* Mission */
+/* Mission - Factal */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.5);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.pulse-icon div {
+    animation: pulse 2s infinite;
+}
 .weather-conditions-icon {
     filter: drop-shadow(0px 1px 0.5px rgb(0, 0, 0, 0.5));
 }
