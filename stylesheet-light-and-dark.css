@@ -1146,7 +1146,7 @@ a.polyline-measure-clearControl:active {
         color: var(--on-surface);
       }
 a.opm-url {
-  color: var(--venom) !important;
+  
   text-decoration: none !important;
   display: inline-block;
   max-width: 70ch;
@@ -1161,13 +1161,13 @@ a.opm-url:hover {
   text-decoration: underline !important;
 }
 .opm-status-closed {
-  color: var(--error-60);
+  color: var(--error-60) !important;
 }
 .opm-status-alert {
-  color: var(--amber);
+  color: var(--amber) !important;
 }
 .opm-status-default {
-  color: var(--venom);
+  color: var(--venom) !important;
 }
 .status-label {
   border-radius: 3px;
