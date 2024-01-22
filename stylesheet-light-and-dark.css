@@ -61,7 +61,6 @@
 
 body {
   font-family: "Inter", sans-serif !important;
-  font-feature-settings: "ss04" on;
   font-size: 14px;
   font-weight: var(--font-weight-regular);
   line-height: 20px;
