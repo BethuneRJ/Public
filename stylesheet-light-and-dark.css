@@ -81,7 +81,7 @@ h4,
 }
 
 .toast-close {
-  color: RGB(0,0,0,0.8);
+  color: RGB(0,0,0,0.8) !important;
 }
 
 /* Space Weather */
