@@ -1312,6 +1312,110 @@ a.opm-url:hover {
   border-color: var(--venom);
 }
 
+:root {
+    --af-c: #9E592A;
+    --af-e: #8F4D1F;
+    --af-s: #804214;
+    --af-sss: #713608;
+    --af-w: #632C00;
+
+    --eur-ce: #AF5D7B;
+    --eur-carc: #A0516E;
+    --eur-ee: #8E5C6C;
+    --eur-nba: #924562;
+    --eur-rus: #833A56;
+    --eur-sce: #752E4A;
+    --eur-se: #67233F;
+    --eur-we: #591733;
+
+    --eap-anp: #7A7393;
+    --eap-cm: #6D6686;
+    --eap-j: #615A79;
+    --eap-k: #554E6C;
+    --eap-mls: #494360;
+    --eap-mts: #3D3754;
+    --eap-tc: #322C48;
+
+    --nea-arp: #4E662F;
+    --nea-i: #4E662F;
+    --nea-ipa: #374D1A;
+    --nea-ir: #2C410F;
+    --nea-lev: #5A723B;
+    --nea-na: #223605;
+
+    --sca-a: #6A5F00;
+    --sca-cen: #5D5300;
+    --sca-insb: #504700;
+    --sca-p: #433C00;
+
+    --wha-and: #007588;
+    --wha-bsc: #006879;
+    --wha-can: #008398;
+    --wha-car: #005B6A;
+    --wha-cca: #004E5C;
+    --wha-cen: #00424D;
+    --wha-ha: #003640;
+    --wha-mex: #002A32;
+
+    --dom-est: #666B6E;
+    --dom-cen: #4E5356;
+    --dom-mtn: #373C3F;
+    --dom-pac: #212729;
+    --dom-ha: #0C1214;
+}
+
+.darkmode {
+    --af-c: #FFDBC8;
+    --af-e: #FFC9AA;
+    --af-s: #FFB68A;
+    --af-sss: #FAA56F;
+    --af-w: #EA9863;
+
+    --eur-ce: #FFD9E3;
+    --eur-carc: #FFC5D6;
+    --eur-ee: #AA7585;
+    --eur-nba: #FFB0C9;
+    --eur-rus: #FB9DBD;
+    --eur-se: #EC90AF;
+    --eur-sce: #DC83A2;
+    --eur-we: #CD7694;
+
+    --eap-anp: #E7DEFF;
+    --eap-cm: #D9CFF3;
+    --eap-j: #CBC2E5;
+    --eap-k: #BDB4D7;
+    --eap-mls: #AFA6C9;
+    --eap-mts: #A199BB;
+    --eap-tc: #948CAD;
+
+    --nea-arp: #C2DE9B;
+    --nea-i: #B4D08E;
+    --nea-ipa: #9AB475;
+    --nea-ir: #8CA669;
+    --nea-lev: #D0ECA8;
+    --nea-na: #80995D;
+
+    --sca-a: #F4E47C;
+    --sca-cen: #E5D670;
+    --sca-insb: #C9BA57;
+    --sca-p: #BBAD4B;
+
+    --wha-and: #C6F2FF;
+    --wha-bsc: #AAEDFF;
+    --wha-can: #7FE2FB;
+    --wha-car: #70D4EC;
+    --wha-cca: #61C6DE;
+    --wha-cen: #51B8D0;
+    --wha-ha: #40ABC2;
+    --wha-mex: #2E9DB4;
+
+    --dom-est: #EDF1F4;
+    --dom-cen: #D0D5D8;
+    --dom-mtn: #B4B9BC;
+    --dom-pac: #999FA1;
+    --dom-ha: #7F8587;
+}
+
 /* Semantic Variables */
 /* [color-scheme='dark'] { wrap the following } */
 .darkmode, #map {
