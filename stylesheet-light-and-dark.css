@@ -1313,6 +1313,8 @@ a.opm-url:hover {
 }
 
 :root {
+    --region-text: RGB(255, 255, 255, 0.95);
+	
     --af-c: #9E592A;
     --af-e: #8F4D1F;
     --af-s: #804214;
@@ -1365,6 +1367,8 @@ a.opm-url:hover {
 }
 
 .darkmode {
+    --region-text: RGB(0, 0, 0, 0.95);
+	
     --af-c: #FFDBC8;
     --af-e: #FFC9AA;
     --af-s: #FFB68A;
