@@ -104,8 +104,8 @@ h4,
     }
 }
 
-#gis-legend {
-	color: #FFF;
+.gis-legend-list {
+  color: white;
 }
 
 /* Space Weather */
