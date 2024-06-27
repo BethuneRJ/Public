@@ -708,7 +708,6 @@ a.polyline-measure-clearControl:active {
 .polyline-measure-tooltip {
   background-color: rgba(27, 27, 31, 0.8);
   border-radius: 3px;
-  box-shadow: 1px 1px 4px #888;
   margin: 0;
   padding: 2px;
   width: auto !important;
