@@ -723,12 +723,11 @@ a.polyline-measure-clearControl:active {
   font-weight: bold;
 }
 .polyline-measure-tooltip-difference {
-  color: #b0d500;
-  font-style: italic;
+  color: #b0d500 !important;
 }
 .polyline-measure-popupTooltip {
-  font: 11px Arial, Helvetica, sans-serif;
-  line-height: 11px;
+  font: 12px Arial, Helvetica, sans-serif;
+  line-height: 12px;
 }
 .extra-marker {
   background: url("../img/markers_default.png") no-repeat 0 0;
