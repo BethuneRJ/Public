@@ -2309,3 +2309,85 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
     color: var(--outline-variant) !important;
     font-weight: 400 !important;
 }
+.add-to-notes-btn {
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease-in-out; /* Adjust the duration as needed */
+}
+
+.whats-new-line-item:hover .add-to-notes-btn {
+    display: inline-block;
+    opacity: 1;
+}
+
+.cms-daily-brief-entry:hover .add-to-notes-btn {
+    display: inline-block;
+    opacity: 1;
+}
+
+.factal-content:hover .add-to-notes-btn {
+    display: inline-block;
+    opacity: 1;
+}
+
+.dropdown-menu-note {
+    width: 100%;
+	background-color:var(--surface-container);
+    left: 0;
+    z-index: 1000;
+    display: none;
+	padding: 2px 2px 2px 4px;
+}
+
+.dropdown-menu-note.show {
+    display: block;
+}
+
+.icon-button.dropdown-toggle::after {
+    display: none;
+}
+.icon-dot {
+  height: 8px;
+  width: 8px;
+  background-color: var(--primary-60);
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  border-radius: 99px;
+  outline-style: solid;
+  outline-color: var(--surface-container-low);
+  outline-width: 3px;
+  z-index: 10;
+}
+.custom-outline .form-control {
+    border: 1px solid var(--outline);
+}
+
+.custom-outline .form-control:focus {
+    border-color: var(--focus-outline) !important;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Customize as needed */
+}
+
+.custom-outline .form-label {
+    color: var(--label-color); /* Default label color */
+}
+
+.custom-outline .form-control:focus + .form-label {
+    color: var(--focus-label-color) !important;
+}
+.note-flag-add-button {
+    background: var(--primary);
+    color: var(--on-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.note-flag-add-button:hover {
+    background-color: var(--primary);
+    color: var(--on-primary);
+    filter: brightness(0.9);
+}
+.note-flag-add-button:active {
+    background-color: var(--primary);
+    color: var(--on-primary);
+    filter: brightness(0.8);
+}
