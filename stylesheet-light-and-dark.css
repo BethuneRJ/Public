@@ -2425,10 +2425,6 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
 	-o-transition: -o-stroke-dashoffset .3s ease-out, -o-stroke-opacity .3s ease-in;
 	transition: stroke-dashoffset .3s ease-out, stroke-opacity .3s ease-in;
 }
-.leaflet-interactive {
-	stroke: #FFF !important; 
-	stroke-opacity: 0.5 !important;
-}
 .marker-cluster-small {
     background-color: rgba(181, 226, 140, 1)
 }
