@@ -2460,3 +2460,202 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
 .marker-cluster span {
 	line-height: 36px
 }
+
+/* marker styles */
+
+:root {
+  --icon-size: 36px;
+  --red: 0, 100%, 64%;
+  --orange: 27, 96%, 61%;
+  --yellow: 48, 96%, 53%;
+  --lime: 83, 78%, 55%;
+  --cool-green: 142, 69%, 58%;
+  --teal: 172, 66%, 50%;
+  --blue: 213, 94%, 68%;
+  --violet: 252, 95%, 85%;
+  --light-pink: 291, 93%, 83%;
+  --slate: 214, 32%, 91%;
+  --stone: 24, 6%, 83%;
+  --color: var(--red);
+  --pin-color: hsl(var(--color), 1);
+  --stroke-color: color-mix(in hsl, hsl(var(--color)) 80%, black);
+}
+
+.red {
+  --color: var(--red);
+}
+
+.orange {
+  --color: var(--orange);
+}
+
+.yellow {
+  --color: var(--yellow);
+}
+
+.lime {
+  --color: var(--lime);
+}
+
+.cool-green {
+  --color: var(--cool-green);
+}
+
+.teal {
+  --color: var(--teal);
+}
+
+.blue {
+  --color: var(--blue);
+}
+
+.violet {
+  --color: var(--violet);
+}
+
+.light-pink {
+  --color: var(--light-pink);
+}
+
+.slate {
+  --color: var(--slate);
+}
+
+.stone {
+  --color: var(--stone);
+}
+
+.mute-dark {
+  filter: saturate(0.35) brightness(1) contrast(1.2);
+}
+
+.mute {
+  filter: saturate(0.35) brightness(1.15) contrast(1.1);
+}
+
+.mute-light {
+  filter: saturate(0.35) brightness(1.25) contrast(1);
+}
+
+.circle-icon {
+  position: relative;
+  height: var(--icon-size) !important;
+  width: var(--icon-size) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform-origin: center center;
+  background-color: hsl(var(--color), 1);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.65);
+  outline-style: solid;
+  outline-width: 1.25px;
+  outline-color: color-mix(in hsl, hsl(var(--color)) 80%, black);
+  transform: translateX(calc(var(--icon-size) / -2))
+    translateY(calc(var(--icon-size) / -2));
+  border-radius: 999px;
+}
+
+.div-icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  transform-origin: bottom center;
+  width: 1px !important;
+  height: 1px !important;
+}
+
+.div-icon > *:hover,
+.circle-icon:hover {
+  filter: brightness(1.15);
+  transition: all 0.24s ease-out;
+}
+
+.icon-html {
+  position: absolute;
+  height: var(--icon-size);
+  width: var(--icon-size);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  transform: translateY(calc(var(--icon-size) * -1.7));
+  transform-origin: bottom center;
+  z-index: 400;
+}
+
+.icon-html > svg {
+  height: auto;
+  overflow: visible;
+  transform-origin: bottom center;
+}
+
+.icon-html > svg > path {
+  fill: hsl(var(--color), 1);
+  stroke: color-mix(in hsl, hsl(var(--color)) 80%, black);
+  stroke-width: 1.25px;
+  stroke-opacity: 1;
+  paint-order: stroke;
+  transform-origin: bottom center;
+}
+
+.icon-shadow {
+  --size: var(--icon-size);
+  position: absolute;
+  bottom: 0;
+  left: calc(var(--size) * (-0.5));
+  height: var(--size);
+  width: var(--size);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  transform-origin: bottom center;
+  pointer-events: none;
+  z-index: 200;
+}
+
+.icon-shadow > svg {
+  height: auto;
+  overflow: visible;
+  transform: skewX(-50deg) scaleY(0.4);
+  transform-origin: bottom center;
+  opacity: 0.4;
+}
+
+.icon-shadow > svg > path {
+  fill: hsl(var(--color), 1);
+  stroke: color-mix(in hsl, hsl(var(--color)) 80%, black);
+  stroke-width: 1.25px;
+  stroke-opacity: 1;
+  paint-order: stroke;
+  filter: blur(3px) saturate(0.5) brightness(0.25);
+  transform-origin: bottom center;
+}
+
+.icon-container {
+  height: var(--icon-size);
+  width: var(--icon-size);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(calc(var(--icon-size) * -1.7));
+  z-index: 410;
+  transform-origin: bottom center;
+  pointer-events: none;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.65);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.icon-container > i,
+.circle-icon > i {
+  color: black;
+  opacity: 0.65;
+  font-size: calc(var(--icon-size) * 0.4);
+  transform-origin: bottom center;
+}
