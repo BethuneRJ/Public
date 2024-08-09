@@ -2465,6 +2465,15 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
 
 :root {
   --icon-size: 36px;
+
+  --af-color: 23, 93%, 71%;
+  --eap-color: 252, 45%, 80%;
+  --eur-color: 342, 81%, 85%;
+  --dom-color: 220, 4%, 77%;
+  --nea-color: 84, 70%, 74%;
+  --sca-color: 52, 80%, 68%;
+  --wha-color: 192, 71%, 71%;
+
   --red: 0, 100%, 64%;
   --orange: 27, 96%, 61%;
   --yellow: 48, 96%, 53%;
@@ -2476,9 +2485,38 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
   --light-pink: 291, 93%, 83%;
   --slate: 214, 32%, 91%;
   --stone: 24, 6%, 83%;
+
   --color: var(--red);
   --pin-color: hsl(var(--color), 1);
   --stroke-color: color-mix(in hsl, hsl(var(--color)) 80%, black);
+}
+
+.af {
+  --color: var(--af-color);
+}
+
+.eap {
+  --color: var(--eap-color);
+}
+
+.eur {
+  --color: var(--eur-color);
+}
+
+.dom {
+  --color: var(--dom-color);
+}
+
+.nea {
+  --color: var(--nea-color);
+}
+
+.sca {
+  --color: var(--sca-color);
+}
+
+.wha {
+  --color: var(--wha-color);
 }
 
 .red {
