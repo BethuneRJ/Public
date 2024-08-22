@@ -2463,6 +2463,7 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
 
 /* marker styles */
 
+
 :root {
   --icon-size: 36px;
 
@@ -2473,6 +2474,8 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
   --nea-color: 84, 70%, 74%;
   --sca-color: 52, 80%, 68%;
   --wha-color: 192, 71%, 71%;
+
+  --cluster-marker: 0, 0%, 17%;
 
   --red: 0, 100%, 64%;
   --orange: 27, 96%, 61%;
@@ -2486,81 +2489,92 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
   --slate: 214, 32%, 91%;
   --stone: 24, 6%, 83%;
 
-  --color: var(--red);
-  --pin-color: hsl(var(--color), 1);
-  --stroke-color: color-mix(in hsl, hsl(var(--color)) 80%, black);
+  --marker-color: var(--red);
+  --pin-color: hsl(var(--marker-color), 1);
+  --stroke-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
+  --marker-text-color: rgba(0, 0, 0, 0.65);
+  --marker-font-size: 14px;
 }
 
 .af {
-  --color: var(--af-color);
+  --marker-color: var(--af-color);
 }
 
 .eap {
-  --color: var(--eap-color);
+  --marker-color: var(--eap-color);
 }
 
 .eur {
-  --color: var(--eur-color);
+  --marker-color: var(--eur-color);
 }
 
 .dom {
-  --color: var(--dom-color);
+  --marker-color: var(--dom-color);
 }
 
 .nea {
-  --color: var(--nea-color);
+  --marker-color: var(--nea-color);
 }
 
 .sca {
-  --color: var(--sca-color);
+  --marker-color: var(--sca-color);
 }
 
 .wha {
-  --color: var(--wha-color);
+  --marker-color: var(--wha-color);
+}
+
+.cluster-marker {
+  --marker-color: var(--cluster-marker);
+  --pin-color: hsl(var(--marker-color), 1);
+  --stroke-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, white);
+  --marker-text-color: rgba(255, 255, 255, 0.75);
+  --icon-size: 64px;
+  --marker-font-size: 18px;
 }
 
 .red {
-  --color: var(--red);
+  --marker-color: var(--red);
 }
 
 .orange {
-  --color: var(--orange);
+  --marker-color: var(--orange);
 }
 
 .yellow {
-  --color: var(--yellow);
+  --marker-color: var(--yellow);
 }
 
 .lime {
-  --color: var(--lime);
+  --marker-color: var(--lime);
 }
 
 .cool-green {
-  --color: var(--cool-green);
+  --marker-color: var(--cool-green);
 }
 
 .teal {
-  --color: var(--teal);
+  --marker-color: var(--teal);
 }
 
 .blue {
-  --color: var(--blue);
+  --marker-color: var(--blue);
 }
 
 .violet {
-  --color: var(--violet);
+  --marker-color: var(--violet);
 }
 
 .light-pink {
-  --color: var(--light-pink);
+  --marker-color: var(--light-pink);
 }
 
 .slate {
-  --color: var(--slate);
+  --marker-color: var(--slate);
 }
 
 .stone {
-  --color: var(--stone);
+  --marker-color: var(--stone);
 }
 
 .mute-dark {
@@ -2583,21 +2597,22 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
   align-items: center;
   justify-content: center;
   transform-origin: center center;
-  background-color: hsl(var(--color), 1);
+  background-color: hsl(var(--marker-color), 1);
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.65);
+  font-size: var(--marker-font-size);
+  color: var(--marker-text-color);
   outline-style: solid;
   outline-width: 1.25px;
-  outline-color: color-mix(in hsl, hsl(var(--color)) 80%, black);
+  outline-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
   transform: translateX(calc(var(--icon-size) / -2))
     translateY(calc(var(--icon-size) / -2));
   border-radius: 999px;
 }
 
 .div-icon {
+  /* background-color: red; */
   position: relative;
   display: flex;
   justify-content: center;
@@ -2631,8 +2646,8 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
 }
 
 .icon-html > svg > path {
-  fill: hsl(var(--color), 1);
-  stroke: color-mix(in hsl, hsl(var(--color)) 80%, black);
+  fill: hsl(var(--marker-color), 1);
+  stroke: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
   stroke-width: 1.25px;
   stroke-opacity: 1;
   paint-order: stroke;
@@ -2663,8 +2678,8 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
 }
 
 .icon-shadow > svg > path {
-  fill: hsl(var(--color), 1);
-  stroke: color-mix(in hsl, hsl(var(--color)) 80%, black);
+  fill: hsl(var(--marker-color), 1);
+  stroke: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
   stroke-width: 1.25px;
   stroke-opacity: 1;
   paint-order: stroke;
@@ -2683,8 +2698,8 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
   z-index: 410;
   transform-origin: bottom center;
   pointer-events: none;
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.65);
+  font-size: var(--marker-font-size);
+  color: var(--marker-text-color);
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -2692,8 +2707,8 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
 
 .icon-container > i,
 .circle-icon > i {
-  color: black;
-  opacity: 0.65;
+  color: var(--marker-text-color);
   font-size: calc(var(--icon-size) * 0.4);
   transform-origin: bottom center;
 }
+
