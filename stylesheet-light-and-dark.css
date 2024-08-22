@@ -2494,34 +2494,42 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
   --stroke-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
   --marker-text-color: rgba(0, 0, 0, 0.65);
   --marker-font-size: 14px;
+  --marker-opacity: 1;
 }
 
 .af {
   --marker-color: var(--af-color);
+  --marker-outline-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
 }
 
 .eap {
   --marker-color: var(--eap-color);
+  --marker-outline-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
 }
 
 .eur {
   --marker-color: var(--eur-color);
+  --marker-outline-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
 }
 
 .dom {
   --marker-color: var(--dom-color);
+  --marker-outline-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
 }
 
 .nea {
   --marker-color: var(--nea-color);
+  --marker-outline-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
 }
 
 .sca {
   --marker-color: var(--sca-color);
+  --marker-outline-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
 }
 
 .wha {
   --marker-color: var(--wha-color);
+  --marker-outline-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
 }
 
 .cluster-marker {
@@ -2529,52 +2537,65 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
   --pin-color: hsl(var(--marker-color), 1);
   --stroke-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, white);
   --marker-text-color: rgba(255, 255, 255, 0.75);
-  --icon-size: 64px;
+  --icon-size: 56px;
   --marker-font-size: 18px;
+  --marker-outline-color: hsl(0, 0%, 50%, .4);
+  --marker-opacity: .97;
 }
 
 .red {
   --marker-color: var(--red);
+  --marker-outline-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
 }
 
 .orange {
   --marker-color: var(--orange);
+  --marker-outline-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
 }
 
 .yellow {
   --marker-color: var(--yellow);
+  --marker-outline-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
 }
 
 .lime {
   --marker-color: var(--lime);
+  --marker-outline-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
 }
 
 .cool-green {
   --marker-color: var(--cool-green);
+  --marker-outline-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
 }
 
 .teal {
   --marker-color: var(--teal);
+  --marker-outline-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
 }
 
 .blue {
   --marker-color: var(--blue);
+  --marker-outline-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
 }
 
 .violet {
   --marker-color: var(--violet);
+  --marker-outline-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
 }
 
 .light-pink {
   --marker-color: var(--light-pink);
+  --marker-outline-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
 }
 
 .slate {
   --marker-color: var(--slate);
+  --marker-outline-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
 }
 
 .stone {
   --marker-color: var(--stone);
+  --marker-outline-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
 }
 
 .mute-dark {
@@ -2605,10 +2626,11 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
   color: var(--marker-text-color);
   outline-style: solid;
   outline-width: 1.25px;
-  outline-color: color-mix(in hsl, hsl(var(--marker-color)) 80%, black);
+  outline-color: var(--marker-outline-color);
   transform: translateX(calc(var(--icon-size) / -2))
     translateY(calc(var(--icon-size) / -2));
   border-radius: 999px;
+  opacity: var(--marker-opacity);
 }
 
 .div-icon {
@@ -2711,4 +2733,5 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
   font-size: calc(var(--icon-size) * 0.4);
   transform-origin: bottom center;
 }
+
 
