@@ -1315,49 +1315,49 @@ a.opm-url:hover {
 :root {
     --region-text: RGB(255, 255, 255, 0.95);
 	
-    --af-c: #9E592A;
-    --af-e: #8F4D1F;
-    --af-s: #804214;
-    --af-sss: #713608;
-    --af-w: #632C00;
+    --af-c: #B96F3D;
+    --af-e: #AD6534;
+    --af-s: #A15B2B;
+    --af-sss: #955222;
+    --af-w: #894819;
 
-    --eur-ce: #AF5D7B;
-    --eur-carc: #A0516E;
+    --eur-ce: #A77282;
+    --eur-carc: #9C6978;
     --eur-ee: #8E5C6C;
-    --eur-nba: #924562;
-    --eur-rus: #833A56;
-    --eur-sce: #752E4A;
-    --eur-se: #67233F;
-    --eur-we: #591733;
+    --eur-nba: #915F6E;
+    --eur-rus: #865564;
+    --eur-sce: #7B4C5B;
+    --eur-se: #704351;
+    --eur-we: #653A48;
 
-    --eap-anp: #7A7393;
-    --eap-cm: #6D6686;
-    --eap-j: #615A79;
-    --eap-k: #554E6C;
-    --eap-mls: #494360;
-    --eap-mts: #3D3754;
-    --eap-tc: #322C48;
+    --eap-anp: #837D9E;
+    --eap-cm: #797394;
+    --eap-j: #6F6989;
+    --eap-k: #655F7F;
+    --eap-mls: #5B5675;
+    --eap-mts: #524C6B;
+    --eap-tc: #484361;
 
-    --nea-arp: #4E662F;
-    --nea-i: #4E662F;
-    --nea-ipa: #374D1A;
-    --nea-ir: #2C410F;
-    --nea-lev: #5A723B;
-    --nea-na: #223605;
+    --nea-arp: #70894F;
+    --nea-i: #667F46;
+    --nea-ipa: #5D753D;
+    --nea-ir: #536A34;
+    --nea-lev: #4A612B;
+    --nea-na: #405723;
 
-    --sca-a: #6A5F00;
-    --sca-cen: #5D5300;
-    --sca-insb: #504700;
-    --sca-p: #433C00;
+    --sca-a: #8F8225;
+    --sca-cen: #84781A;
+    --sca-insb: #7A6E0E;
+    --sca-p: #6F6401;
 
-    --wha-and: #007588;
-    --wha-bsc: #006879;
-    --wha-can: #008398;
-    --wha-car: #005B6A;
-    --wha-cca: #004E5C;
-    --wha-cen: #00424D;
-    --wha-ha: #003640;
-    --wha-mex: #002A32;
+    --wha-and: #358CA0;
+    --wha-bsc: #278195;
+    --wha-can: #16778B;
+    --wha-car: #006D80;
+    --wha-cca: #006374;
+    --wha-cen: #005868;
+    --wha-ha: #004E5C;
+    --wha-mex: #004451;
 
     --dom-est: #666B6E;
     --dom-cen: #4E5356;
