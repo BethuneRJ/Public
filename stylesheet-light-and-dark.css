@@ -2846,12 +2846,20 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
   --dom-pac: #9c9ea2;
 }
 
+#sub-region-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .25rem;
+  margin-top: .5rem;
+}
+
 .sub-region-badge {
   background-color: var(--secondary);
   color: var(--badge-text);
   padding: 2px 8px;
   border-radius: 99px;
   font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .af-c-badge {
