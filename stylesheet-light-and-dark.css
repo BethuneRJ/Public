@@ -2734,4 +2734,344 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
   transform-origin: bottom center;
 }
 
+/* Subregion Tags */
+
+:root {
+  --badge-text: rgba(255, 255, 255, 0.95);
+
+  --af-c: #b96f3d;
+  --af-e: #ad6534;
+  --af-sss: #a15b2b;
+  --af-s: #955222;
+  --af-w: #894819;
+
+  --eur-ce: #a77282;
+  --eur-ceec: #9c6978;
+  --eur-nba: #915f6e;
+  --eur-rus: #865564;
+  --eur-sce: #7b4c5b;
+  --eur-se: #704351;
+  --eur-we: #653a48;
+  --eur-carc: #5b313f;
+  --eur-ee: #512836;
+
+  --eap-anp: #837d9e;
+  --eap-cm: #797394;
+  --eap-j: #6f6989;
+  --eap-k: #655f7f;
+  --eap-mls: #5b5675;
+  --eap-mts: #524c6b;
+  --eap-tc: #484361;
+
+  --nea-lev: #70894f;
+  --nea-arp: #667f46;
+  --nea-i: #5d753d;
+  --nea-ipa: #536a34;
+  --nea-ir: #4a612b;
+  --nea-na: #405723;
+
+  --sca-a: #8f8225;
+  --sca-cen: #84781a;
+  --sca-insb: #7a6e0e;
+  --sca-p: #6f6401;
+
+  --wha-and: #358ca0;
+  --wha-bsc: #278195;
+  --wha-can: #16778b;
+  --wha-car: #006d80;
+  --wha-cca: #006374;
+  --wha-cen: #005868;
+  --wha-ha: #004e5c;
+  --wha-mex: #004451;
+
+  --dom-cen: #75777b;
+  --dom-est: #6b6d71;
+  --dom-ha: #616367;
+  --dom-mtn: #575a5e;
+  --dom-pac: #4e5054;
+}
+
+.darkmode {
+  --badge-text: rgba(0, 0, 0, 0.95);
+
+  --af-c: #ffc9a9;
+  --af-e: #ffb689;
+  --af-sss: #faa56d;
+  --af-s: #ea9861;
+  --af-w: #db8b56;
+
+  --eur-ce: #ffd9e2;
+  --eur-ceec: #ffc5d5;
+  --eur-nba: #f3b6c7;
+  --eur-rus: #e4a9ba;
+  --eur-sce: #d59cac;
+  --eur-se: #c68e9f;
+  --eur-we: #b88292;
+  --eur-carc: #aa7585;
+  --eur-ee: #9c6978;
+
+  --eap-anp: #e6deff;
+  --eap-cm: #d8d0f5;
+  --eap-j: #cac2e6;
+  --eap-k: #bcb4d8;
+  --eap-mls: #aea7ca;
+  --eap-mts: #a099bc;
+  --eap-tc: #938cae;
+
+  --nea-lev: #d0eca8;
+  --nea-arp: #b4d08e;
+  --nea-i: #a7c282;
+  --nea-ipa: #9ab475;
+  --nea-ir: #8da669;
+  --nea-na: #80995d;
+
+  --sca-a: #f4e47c;
+  --sca-cen: #d7c863;
+  --sca-insb: #bbad4b;
+  --sca-p: #9f9233;
+
+  --wha-and: #acedff;
+  --wha-bsc: #90e0f6;
+  --wha-can: #81d2e8;
+  --wha-car: #73c4d9;
+  --wha-cca: #65b6cb;
+  --wha-cen: #57a9be;
+  --wha-ha: #489cb0;
+  --wha-mex: #388ea2;
+
+  --dom-cen: #d3d4d9;
+  --dom-est: #c5c6cb;
+  --dom-ha: #b7b9bd;
+  --dom-mtn: #aaabaf;
+  --dom-pac: #9c9ea2;
+}
+
+.sub-region-badge {
+  background-color: var(--secondary);
+  color: var(--badge-text);
+  padding: 2px 8px;
+  border-radius: 99px;
+  font-size: 0.75em;
+}
+
+.af-c-badge {
+  background-color: var(--af-c);
+  color: var(--badge-text);
+}
+
+.af-e-badge {
+  background-color: var(--af-e);
+  color: var(--badge-text);
+}
+
+.af-sss-badge {
+  background-color: var(--af-sss);
+  color: var(--badge-text);
+}
+
+.af-s-badge {
+  background-color: var(--af-s);
+  color: var(--badge-text);
+}
+
+.af-w-badge {
+  background-color: var(--af-w);
+  color: var(--badge-text);
+}
+
+.eur-ce-badge {
+  background-color: var(--eur-ce);
+  color: var(--badge-text);
+}
+
+.eur-ceec-badge {
+  background-color: var(--eur-ceec);
+  color: var(--badge-text);
+}
+
+.eur-nba-badge {
+  background-color: var(--eur-nba);
+  color: var(--badge-text);
+}
+
+.eur-rus-badge {
+  background-color: var(--eur-rus);
+  color: var(--badge-text);
+}
+
+.eur-sce-badge {
+  background-color: var(--eur-sce);
+  color: var(--badge-text);
+}
+
+.eur-se-badge {
+  background-color: var(--eur-se);
+  color: var(--badge-text);
+}
+
+.eur-we-badge {
+  background-color: var(--eur-we);
+  color: var(--badge-text);
+}
+
+.eur-carc-badge {
+  background-color: var(--eur-carc);
+  color: var(--badge-text);
+}
+
+.eur-ee-badge {
+  background-color: var(--eur-ee);
+  color: var(--badge-text);
+}
+
+.eap-anp-badge {
+  background-color: var(--eap-anp);
+  color: var(--badge-text);
+}
+
+.eap-cm-badge {
+  background-color: var(--eap-cm);
+  color: var(--badge-text);
+}
+
+.eap-j-badge {
+  background-color: var(--eap-j);
+  color: var(--badge-text);
+}
+
+.eap-k-badge {
+  background-color: var(--eap-k);
+  color: var(--badge-text);
+}
+
+.eap-mls-badge {
+  background-color: var(--eap-mls);
+  color: var(--badge-text);
+}
+
+.eap-mts-badge {
+  background-color: var(--eap-mts);
+  color: var(--badge-text);
+}
+
+.eap-tc-badge {
+  background-color: var(--eap-tc);
+  color: var(--badge-text);
+}
+
+.nea-lev-badge {
+  background-color: var(--nea-lev);
+  color: var(--badge-text);
+}
+
+.nea-arp-badge {
+  background-color: var(--nea-arp);
+  color: var(--badge-text);
+}
+
+.nea-i-badge {
+  background-color: var(--nea-i);
+  color: var(--badge-text);
+}
+
+.nea-ipa-badge {
+  background-color: var(--nea-ipa);
+  color: var(--badge-text);
+}
+
+.nea-ir-badge {
+  background-color: var(--nea-ir);
+  color: var(--badge-text);
+}
+
+.nea-na-badge {
+  background-color: var(--nea-na);
+  color: var(--badge-text);
+}
+
+.sca-a-badge {
+  background-color: var(--sca-a);
+  color: var(--badge-text);
+}
+
+.sca-cen-badge {
+  background-color: var(--sca-cen);
+  color: var(--badge-text);
+}
+
+.sca-insb-badge {
+  background-color: var(--sca-insb);
+  color: var(--badge-text);
+}
+
+.sca-p-badge {
+  background-color: var(--sca-p);
+  color: var(--badge-text);
+}
+
+.wha-and-badge {
+  background-color: var(--wha-and);
+  color: var(--badge-text);
+}
+
+.wha-bsc-badge {
+  background-color: var(--wha-bsc);
+  color: var(--badge-text);
+}
+
+.wha-can-badge {
+  background-color: var(--wha-can);
+  color: var(--badge-text);
+}
+
+.wha-car-badge {
+  background-color: var(--wha-car);
+  color: var(--badge-text);
+}
+
+.wha-cca-badge {
+  background-color: var(--wha-cca);
+  color: var(--badge-text);
+}
+
+.wha-cen-badge {
+  background-color: var(--wha-cen);
+  color: var(--badge-text);
+}
+
+.wha-ha-badge {
+  background-color: var(--wha-ha);
+  color: var(--badge-text);
+}
+
+.wha-mex-badge {
+  background-color: var(--wha-mex);
+  color: var(--badge-text);
+}
+
+.dom-cen-badge {
+  background-color: var(--dom-cen);
+  color: var(--badge-text);
+}
+
+.dom-est-badge {
+  background-color: var(--dom-est);
+  color: var(--badge-text);
+}
+
+.dom-ha-badge {
+  background-color: var(--dom-ha);
+  color: var(--badge-text);
+}
+
+.dom-mtn-badge {
+  background-color: var(--dom-mtn);
+  color: var(--badge-text);
+}
+
+.dom-pac-badge {
+  background-color: var(--dom-pac);
+  color: var(--badge-text);
+}
+
 
