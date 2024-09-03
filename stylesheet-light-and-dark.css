@@ -2851,7 +2851,7 @@ a:not(.sidenav-link):not(.btn):not(.dropdown-item):not(.nav-link):not(.navbar-br
   color: var(--badge-text);
   padding: 2px 8px;
   border-radius: 99px;
-  font-size: 0.75em;
+  font-size: 0.75rem;
 }
 
 .af-c-badge {
